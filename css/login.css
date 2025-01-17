@@ -1,0 +1,154 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FDF4E3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Header */
+
+  .header {
+    width: 100%;
+    background-color: #448894;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header .logo img {
+    height: 70px;
+  }
+  
+  /* Contendio */
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 20px;
+  }
+  
+  .welcome-section, .login-section {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  /* Contenido Izquierda */
+
+  .welcome-section img {
+    width: 300px;
+  }
+  
+  .welcome-section h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  .welcome-section p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Contenido Formulario Login */
+
+  .login-section {
+    background-color: #FFF;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-section h2 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .highlight {
+    color: #0C4976;
+    font-weight: 700;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .password-container {
+    position: relative;
+  }
+  
+  .toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .form-options a {
+    color: #0C4976;
+    text-decoration: none;
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #0C4976;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .continue-text {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 14px;
+    color: #666;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    margin: 0 10px;
+    
+  }  
