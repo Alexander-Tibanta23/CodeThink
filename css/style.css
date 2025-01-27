@@ -1,204 +1,210 @@
 /* Colores */
 :root {
-    --background-color: #448894;
-    --hover-color: #0C4976;
-    --login-color: #F0355B;
-    --signup-color: #5C222E;
-    --text-color: #FFFFFF;
-    --start-btn-color: #F4B400;
-    --section-bg: #FAFAFA;
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Comic Neue', Arial, sans-serif; /* Fuente predeterminada */
-    background-color: #FFFFFF;
-  }
-  
-  /* Navbar */
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--background-color);
-    padding: 10px 20px;
-    font-family: 'Baloo 2', Arial, sans-serif; /* Fuente para el navbar */
-  }
-  
-  .logo {
-    display: flex;
-    align-items: center;
-    color: var(--text-color);
-    font-weight: bold;
-    font-size: 1.2em;
-  }
-  
-  .logo-img {
-    height: 60px;
-    margin-right: 1px;
-  }
-  
-  .nav-links {
-    display: flex;
-    list-style: none;
-  }
-  
-  .nav-item {
-    text-decoration: none;
-    color: #FFFFFF;
-    font-weight: bold;
-    font-size: 15px;
-    width: 100px;
-    height: 30px;
-    line-height: 28px;
-    text-align: center;
-    border-radius: 20px;
-    border: 2px solid #0C4976;
-    background-color: transparent;
-    display: inline-block;
-    margin: 0 5px;
-  }
-  
-  .nav-item:hover {
-    background-color: var(--hover-color);
-  }
-  
-  .auth-buttons {
-    display: flex;
-  }
-  
-  .btn {
-    text-decoration: none;
-    color: var(--text-color);
-    font-weight: bold;
-    width: 100px;
-    height: 30px;
-    text-align: center;
-    border-radius: 8px;
-    border: 2px solid var(--signup-color);
-    transition: background-color 0.3s;
-  }
-  
-  .login-btn {
-    background-color: var(--login-color);
-    margin-right: 20px;
-  }
-  
-  .signup-btn {
-    background-color: var(--login-color);
-  }
-  
-  .login-btn:hover, .signup-btn:hover {
-    opacity: 0.9;
-  }
-  
-  /* cuerpo */
+  --background-color: #448894;
+  --hover-color: #0C4976;
+  --login-color: #F0355B;
+  --signup-color: #5C222E;
+  --text-color: #FFFFFF;
+  --start-btn-color: #F4B400;
+  --section-bg: #FAFAFA;
+}
 
-  .hero-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px 20px;
-    background-color: #FEF9F5;
-  }
-  
-  .hero-content {
-    max-width: 50%;
-    font-family: 'Comic Neue', Arial, sans-serif; /* Fuente para hero */
-  }
-  
-  .hero-content h1 {
-    font-size: 2em;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  .hero-content p {
-    font-size: 1.2em;
-    color: #555;
-    margin-bottom: 20px;
-  }
-  
-  .start-btn {
-    background-color: var(--start-btn-color);
-    color: #FFFFFF;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: opacity 0.3s;
-    margin-left: 110px;
-    border: none;
-  }
-  
-  .start-btn:hover {
-    opacity: 0.8;
-  }
-  
-  .hero-image img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  /* Cartas */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  .features-section {
-    background-color: white;
-    padding: 40px 20px;
-    text-align: center;
-  }
-  
-  .features-section h2 {
-    font-size: 1.8em;
-    color: #333;
-    margin-bottom: 30px;
-    font-family: 'Comic Neue', Arial, sans-serif;
-  }
-  
-  .features {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .feature-card {
-    background-color: #FFFFFF;
-    border: 1px solid #DDD;
-    border-radius: 10px;
-    padding: 20px;
-    max-width: 300px;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
-    font-family: 'Fredoka', Arial, sans-serif; /* Fuente para las tarjetas */
-  }
-  
-  .feature-card img {
-    max-width: 80px;
-    margin-bottom: 20px;
-  }
-  
-  .feature-card h3 {
-    font-size: 1.2em;
-    color: #333;
-    margin-bottom: 10px;
-  }
-  
-  .feature-card p {
-    font-size: 1em;
-    color: #555;
-  }
-  
-  .feature-card:hover {
-    transform: translateY(-10px);
-  }
+body {
+  font-family: 'Comic Neue', Arial, sans-serif;
+  /* Fuente predeterminada */
+  background-color: #FFFFFF;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background-color);
+  padding: 10px 20px;
+  font-family: 'Baloo 2', Arial, sans-serif;
+  /* Fuente para el navbar */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+.logo-img {
+  height: 65px;
+  margin-right: 1px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 20px;
+  width: 130px;
+  height: 40px;
+  line-height: 38px;
+  text-align: center;
+  border-radius: 20px;
+  border: 3px solid #0C4976;
+  background-color: transparent;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.nav-item:hover {
+  background-color: var(--hover-color);
+}
+
+.auth-buttons {
+  display: flex;
+}
+
+.btn {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: bold;
+  width: 120px;
+  height: 35px;
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid var(--signup-color);
+  transition: background-color 0.3s;
+  font-size: 1.2em;
+  line-height: 35px;
+}
+
+.login-btn {
+  background-color: var(--login-color);
+  margin-right: 20px;
+}
+
+.signup-btn {
+  background-color: var(--login-color);
+}
+
+.login-btn:hover,
+.signup-btn:hover {
+  opacity: 0.9;
+}
+
+/* cuerpo */
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  background-color: #FEF9F5;
+}
+
+.hero-content {
+  max-width: 50%;
+  font-family: 'Comic Neue', Arial, sans-serif;
+  /* Fuente para hero */
+}
+
+.hero-content h1 {
+  font-size: 2.6em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.6em;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.start-btn {
+  background-color: var(--start-btn-color);
+  color: #FFFFFF;
+  padding: 10px 40px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: opacity 0.3s;
+  margin-left: 280px;
+  border: none;
+}
+
+.start-btn:hover {
+  opacity: 0.8;
+}
+
+.hero-image img {
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Cartas */
+
+.features-section {
+  background-color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.features-section h2 {
+  font-size: 1.8em;
+  color: #333;
+  margin-bottom: 30px;
+  font-family: 'Comic Neue', Arial, sans-serif;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.feature-card {
+  background-color: #FFFFFF;
+  border: 1px solid #DDD;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  font-family: 'Fredoka', Arial, sans-serif;
+  /* Fuente para las tarjetas */
+}
+
+.feature-card img {
+  max-width: 90px;
+  margin-bottom: 20px;
+}
+
+.feature-card h3 {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.feature-card p {
+  font-size: 1em;
+  color: #555;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+}
 
 
-    /* Footer */
-
-    
+/* Footer */

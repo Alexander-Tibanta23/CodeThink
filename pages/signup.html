@@ -5,47 +5,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CodeThink - Sign Up</title>
+    <link rel="shortcut icon" href="/assets/img/Logo-Pestaña.ico" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/signup.css">
 </head>
 
 <body>
+
     <header class="header">
         <div class="logo">
             <a href="/index.html"><img src="/assets/img/Logo-Principal.png" alt="CodeThink Logo"></a>
         </div>
     </header>
 
-    <main class="container">
-        <div class="signup-section">
-            <h2>CODE THINK</h2>
-            <form>
-                <div class="form-row">
-                    <div class="form-group">
-                        <input type="text" placeholder="First Name">
+    <div class="section-container">
+
+        <div class="login-section">
+            <div class="login-container">
+                <h2>Create your <span class="highlight">CODETHINK</span> Account</h2>
+                <form>
+                    <div class="form-group name-group">
+                        <div>
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" placeholder="Enter your first name">
+                        </div>
+                        <div>
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" placeholder="Enter your last name">
+                        </div>
                     </div>
                     <div class="form-group">
-                        <input type="text" placeholder="Last Name">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" placeholder="Enter your email">
                     </div>
-                </div>
-                <div class="form-group">
-                    <input type="email" placeholder="Email">
-                </div>
-                <div class="form-group">
-                    <input type="password" placeholder="Password">
-                </div>
-                <div class="form-group">
-                    <input type="password" placeholder="Repeat Password">
-                </div>
-                <button type="submit" class="signup-btn">SIGN UP</button>
-            </form>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <div class="password-container">
+                            <input type="password" id="password" placeholder="Enter your password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="repeat-password">Repeat Password</label>
+                        <div class="password-container">
+                            <input type="password" id="repeat-password" placeholder="Repeat your password">
+                        </div>
+                    </div>
+                    <button type="submit" class="login-btn">SIGN UP</button>
+                    <div class="separator">
+                        <span>or register with</span>
+                    </div>
+                    <div class="social-icons">
+                        <a href="#"><img src="/assets/img/facebook.png" alt="Facebook"></a>
+                        <a href="#"><img src="/assets/img/google.png" alt="Google"></a>
+                    </div>
+                </form>
+            </div>
         </div>
+
+        <!-- Rigth Section -->
         <div class="welcome-section">
             <h2>Join the adventure!</h2>
-            <p>Create your account and start exploring English in a fun way.</p>
-            <img src="/assets/img/rocket.png" alt="Rocket Illustration">
+            <p>Create your account and start exploring</p>
+            <p>English in a fun way.</p>
         </div>
-    </main>
+    </div>
 </body>
 
 </html>
