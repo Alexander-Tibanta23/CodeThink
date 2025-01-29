@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Explorer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: #EDEDED;
+            width: 600px;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .title {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .content {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        .image-container img {
+            width: 350px;
+            border-radius: 10px;
+        }
+        .info {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            width: 200px;
+        }
+        .info p {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+        .info p span {
+            font-weight: bold;
+        }
+        .play-button {
+            background-color: #ff4c4c;
+            color: white;
+            border: none;
+            padding: 10px 50px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 100px;
+            justify-content: center;
+            margin-right: 35px;
+        }
+        .details {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .description, .instructions {
+            width: 48%;
+            position: relative;
+            padding-top: 10px;
+        }
+        .description h3, .instructions h3 {
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+            position: relative;
+        }
+        .description h3::after {
+            content: '';
+            width: 104px;
+            height: 4px;
+            background-color: #F0355B;
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+        }
+        .instructions h3::after {
+            content: '';
+            width: 107px;
+            height: 4px;
+            background-color: #f0c353;
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+        }
+        .back-button {
+            background-color: #448894;
+            color: white;
+            padding: 10px;
+            width: 80%;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 80px;
+            text-align: center;
+            justify-content: center;
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="title">School Explorer</div>
+        </div>
+        
+        <div class="content">
+            <div class="image-container">
+                <img src="/assets/img/games/ImagenJuego1.png" alt="Mapa Escolar">
+            </div>
+            <div class="info">
+                <p><span>Level:</span> 📊</p>
+                <p><span>Time:</span> 10 minutes</p>
+                <p><span>Score:</span> 500 points</p>
+                <button class="play-button">Play ▶️</button>
+            </div>
+            
+        </div>
+        
+        <div class="details">
+            <div class="description">
+                <h3>Description</h3>
+                <p>Navigate a school map and learn vocabulary about places and favorite classes by selecting the correct image.</p>
+                <button class="back-button">Back</button>
+            </div>
+            <div class="instructions">
+                <h3>Instructions</h3>
+                <ol>
+                    <li>You will be shown a question related to the location.</li>
+                    <li>Below the question, four images will appear.</li>
+                    <li>Select the correct image that represents the place or object related to the vocabulary word.</li>
+                    <li>After selecting, the game will check if you chose the right image and give feedback.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

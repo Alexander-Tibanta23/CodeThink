@@ -17,9 +17,3 @@ document.querySelector(".list").addEventListener("click", function () {
   document.querySelector(".games-area-wrapper").classList.remove("gridView");
   document.querySelector(".games-area-wrapper").classList.add("tableView");
 });
-
-var modeSwitch = document.querySelector('.mode-switch');
-modeSwitch.addEventListener('click', function () {                      
-document.documentElement.classList.toggle('light');
- modeSwitch.classList.toggle('active');
-});
