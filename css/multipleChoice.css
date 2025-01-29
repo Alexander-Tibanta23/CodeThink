@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f8f8;
+}
+
+.container {
+    background: #FFF9E4;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 800px; /* Más ancho */
+    height: 700px;
+    position: relative;
+}
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: #e7bbc4;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.back-button span {
+    font-size: 20px;
+    color: #0C4976;
+}
+
+.question-box {
+    margin-top: 5px;
+    background: #E8D7D7;
+    padding: 12px;
+    border-radius: 30px;
+    font-size: 22px;
+    margin-bottom: 20px;
+    border: 1.8px solid #0C4976;
+    margin-left: 60px;
+    margin-right: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.options {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 opciones por fila */
+    gap: 25px;
+    justify-items: center;
+    margin-bottom: 35px;
+}
+
+.option {
+    width: 90%;
+    padding: 14px;
+    font-size: 18px;
+    border-radius: 12px;
+    border: 3px solid #222; /* Color del contorno */
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.4); /* Sombra hacia la derecha y abajo */
+}
+
+/* Personalización de colores de fondo */
+.option:nth-child(1) { background: #F0355B; color: #3D0F22; }
+.option:nth-child(2) { background: #67C49A; color: #0D2B14; }
+.option:nth-child(3) { background: #ffd261; color: #403510; }
+.option:nth-child(4) { background: #4fbfd3; color: #102940; }
+
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.progress {
+    height: 100%;
+    width: 100%;
+    background: #2375af;
+    transition: width 1s linear;
+}
+
+.bottom-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.bottom-info span:first-child {
+    font-size: 20px;  /* Tamaño de la fuente */
+    font-weight: bold; /* Hace que el texto sea más grueso */
+    padding: 5px 10px; /* Espaciado interno para mayor tamaño */
+    background: #ffe4b5; /* Fondo para resaltar */
+    border-radius: 8px; /* Bordes redondeados */
+    display: inline-block; /* Permite manejar ancho y alto */
+    min-width: 60px; /* Ancho mínimo */
+    text-align: center; /* Centra el texto */
+}
+
+
+#time {
+    font-size: 18px;
+    color: red;
+}
+
+.next-button {
+    position: absolute;
+    bottom: 10px;
+    right: 100px;
+    background: #e0677f;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.next-button span {
+    font-size: 20px;
+    color: white;
+}

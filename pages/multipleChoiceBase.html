@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregunta Quiz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/multipleChoice.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Botón de regreso -->
+        <button class="back-button" id="back-button">
+            <span>&larr;</span>
+        </button>
+
+        <!-- Pregunta en un cuadro con márgenes -->
+        <div class="question-box" id="titleQuestion">What is this object used for?</div>
+
+        <!-- Imagen -->
+        <div class="image-container">
+            <img id="imageQuestion" src="/assets/img/questions/imageQuestion1.png" alt="Lápiz">
+        </div>
+
+        <!-- Opciones con nuevo diseño -->
+        <div class="options">
+            <button class="option" id="option1">A) Writing</button>
+            <button class="option" id="option2">B) Playing</button>
+            <button class="option" id="option3">C) Eating</button>
+            <button class="option" id="option4">D) Sleeping</button>
+        </div>
+
+        <!-- Barra de progreso -->
+        <div class="progress-bar">
+            <div class="progress" id="progress"></div>
+        </div>
+
+        <!-- Información inferior -->
+        <div class="bottom-info">
+            <span id="puntuation" class="puntuation">4 / 5</span>
+            <span id="score">150 puntos</span>
+            <span id="time">30s</span>
+        </div>
+    </div>
+</body>
+<script src="/controllers/Games/multiplechoise.js"></script>
+</html>
