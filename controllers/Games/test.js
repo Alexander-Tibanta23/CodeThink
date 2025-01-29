@@ -37,6 +37,11 @@ document.addEventListener("DOMContentLoaded", () => {
                 botonJuego.addEventListener("click", () => {
                     window.location.href = `multipleChoiceBase.html?id=${game.id}`;
                 });
+
+                // Botón de regreso
+                document.getElementById("back-button").addEventListener("click", () => {
+                    window.history.back();
+                });
             } else {
                 console.error("Game not found");
             }
