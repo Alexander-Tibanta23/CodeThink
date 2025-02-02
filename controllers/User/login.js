@@ -1,6 +1,7 @@
 // Importa las funciones necesarias de Firebase
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-app.js";
 import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-auth.js";
+import { getFirestore, doc, getDoc } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-firestore.js";
 
 // Configuración de Firebase
 const firebaseConfig = {
@@ -15,6 +16,7 @@ const firebaseConfig = {
 // Inicializar Firebase
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
+const db = getFirestore(app);
 
 // Manejo del evento de inicio de sesión
 document.querySelector("form").addEventListener("submit", async (e) => {
@@ -26,9 +28,19 @@ document.querySelector("form").addEventListener("submit", async (e) => {
     try {
         const userCredential = await signInWithEmailAndPassword(auth, email, password);
         const user = userCredential.user;
-        console.log("User signed in successfully:", user);
-        alert("Welcome back!");
-        window.location.href = "/pages/dashboard.html";
+
+        // Obtener datos del usuario desde Firestore
+        const userDoc = await getDoc(doc(db, "users", user.email));
+        if (userDoc.exists()) {
+            const userData = userDoc.data();
+            console.log("User data:", userData);
+            localStorage.setItem("userData", JSON.stringify(userData));
+            alert(`Welcome back, ${userData.firstName}!`);
+            window.location.href = "/pages/dashboard.html";
+        } else {
+            console.error("User data not found");
+            alert("User data not found!");
+        }
     } catch (error) {
         console.error("Error during login:", error);
         alert(`Error: ${error.message}`);

@@ -1,6 +1,7 @@
 // Importa las funciones necesarias de Firebase
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-app.js";
 import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-auth.js";
+import { getFirestore, doc, setDoc } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-firestore.js";
 
 // Configuración de Firebase
 const firebaseConfig = {
@@ -15,6 +16,7 @@ const firebaseConfig = {
 // Inicializar Firebase
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
+const db = getFirestore(app); 
 
 // Manejo del evento de registro
 document.querySelector("form").addEventListener("submit", async (e) => {
@@ -34,9 +36,17 @@ document.querySelector("form").addEventListener("submit", async (e) => {
     try {
         const userCredential = await createUserWithEmailAndPassword(auth, email, password);
         const user = userCredential.user;
+        // Guardar usuario en Firestore
+        await setDoc(doc(db, "users", user.email), {
+            firstName: firstName,
+            lastName: lastName,
+            email: email,
+            level: 1,
+            points: 0
+        });
         console.log("User registered successfully:", user);
         alert(`Welcome, ${firstName}! Your account has been created.`);
-        window.location.href = "/pages/dashboard.html";
+        window.location.href = "/pages/login.html";
     } catch (error) {
         console.error("Error during sign-up:", error);
         alert(`Error: ${error.message}`);
