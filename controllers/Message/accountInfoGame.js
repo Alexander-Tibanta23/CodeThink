@@ -26,9 +26,15 @@ document.addEventListener("DOMContentLoaded", () => {
             "Perfil13.png"
         ];
 
-        // Seleccionar una imagen aleatoria
-        const randomImage = imageList[Math.floor(Math.random() * imageList.length)];
-        const profileImage = `/assets/img/portraits/${randomImage}`;
+        // Verificar si ya hay una imagen guardada en localStorage
+        let profileImage = localStorage.getItem("profileImage");
+
+        // Si no hay imagen guardada, seleccionar una aleatoria y guardarla
+        if (!profileImage) {
+            const randomImage = imageList[Math.floor(Math.random() * imageList.length)];
+            profileImage = `/assets/img/portraits/${randomImage}`;
+            localStorage.setItem("profileImage", profileImage);
+        }
 
         document.getElementById("imagenPerfil").src = profileImage;
         
