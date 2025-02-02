@@ -32,6 +32,30 @@
                 "correctOption": 2,
                 "score": 100,
                 "time": 30
+            },
+            {
+                "titleQuestion": "Where is the library?",
+                "imageQuestion": "/assets/img/questions/imageQuestion1.png",
+                "options": ["At the first floor", "In the cafeteria", "Near the gym", "On the rooftop"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Which subject is taught in this room?",
+                "imageQuestion": "/assets/img/questions/imageQuestion1.png",
+                "options": ["Math", "History", "Science", "Music"],
+                "correctOption": 2,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Where is the library?",
+                "imageQuestion": "/assets/img/questions/imageQuestion1.png",
+                "options": ["At the first floor", "In the cafeteria", "Near the gym", "On the rooftop"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
             }
         ]
     },
