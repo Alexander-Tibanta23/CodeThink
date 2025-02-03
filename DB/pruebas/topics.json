@@ -1,0 +1,16 @@
+[
+    {
+        "id": "topic1",
+        "name": "Vocabulary",
+        "title": "Vocabulary Practice",
+        "description": "Improve your vocabulary with interactive games.",
+        "games": ["game1", "game2"]
+    },
+    {
+        "id": "topic2",
+        "name": "Grammar",
+        "title": "Grammar Challenge",
+        "description": "Test your grammar skills in various challenges.",
+        "games": ["game3", "game4"]
+    }
+]
