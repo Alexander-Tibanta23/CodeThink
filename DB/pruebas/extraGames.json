@@ -1,0 +1,80 @@
+[
+    {
+        "id": "game1",
+        "image": "/assets/img/games/ImagenJuego1.png",
+        "title": "What’s Your Favorite Class?",
+        "type": "Multiple Choice",
+        "status": "Active",
+        "difficulty": "Easy",
+        "feedback": "Do it!",
+        "duration": "5 min",
+        "points": "500",
+        "descriptionGame": "Navigate a school map and learn vocabulary about places and favorite classes by selecting the correct image.",
+        "instructions": [
+            "You will be shown a question related to the location.",
+            "Below the question, four images will appear.",
+            "Select the correct image that represents the place or object related to the vocabulary word.",
+            "After selecting, the game will check if you chose the right image and give feedback."
+        ],
+        "questions": [
+            {
+                "titleQuestion": "Where is the library?",
+                "imageQuestion": "/assets/img/questions/imageQuestion1.png",
+                "options": ["At the first floor", "In the cafeteria", "Near the gym", "On the rooftop"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Which subject is taught in this room?",
+                "imageQuestion": "/assets/img/questions/imageQuestion1.png",
+                "options": ["Math", "History", "Science", "Music"],
+                "correctOption": 2,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Where is the library?",
+                "imageQuestion": "/assets/img/questions/imageQuestion1.png",
+                "options": ["At the first floor", "In the cafeteria", "Near the gym", "On the rooftop"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Which subject is taught in this room?",
+                "imageQuestion": "/assets/img/questions/imageQuestion1.png",
+                "options": ["Math", "History", "Science", "Music"],
+                "correctOption": 2,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Where is the library?",
+                "imageQuestion": "/assets/img/questions/imageQuestion1.png",
+                "options": ["At the first floor", "In the cafeteria", "Near the gym", "On the rooftop"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            }
+        ]
+    },
+    {
+        "id": "game2",
+        "image": "/assets/img/games/ImagenJuego2.png",
+        "title": "Where’s the Gym?",
+        "type": "Image Identification",
+        "status": "To do",
+        "difficulty": "Medium",
+        "feedback": "Keep going!",
+        "duration": "10 min",
+        "points": "700",
+        "descriptionGame": "Identify different locations inside a school by selecting the correct image.",
+        "instructions": [
+            "You will be given an image of a school environment.",
+            "Identify the gym and click on it.",
+            "If your choice is correct, you will earn points.",
+            "Complete all levels to master location identification!"
+        ]
+    }
+]

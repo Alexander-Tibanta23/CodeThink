@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const gamesContainer = document.querySelector(".games-area-wrapper");
     
-    fetch("/DB/pruebas/games.json") // Cargar JSON
+    fetch("/DB/pruebas/extraGames.json") // Cargar JSON
         .then(response => response.json())
         .then(games => {
             games.forEach(game => {
