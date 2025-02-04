@@ -18,19 +18,78 @@
   --filter-shadow: rgba(58, 55, 55, 0.2) 0px 2px 8px 0px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body, html {
   margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
-}
-
-body {
-  overflow: hidden;
   font-family: "Poppins", sans-serif;
   background-color: var(--app-bg);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Contenedor principal */
+.app-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* Main container */
+main {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Section Box Styling */
+.section-box {
+  margin-top: 40px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  text-align: center;
+}
+
+/* Carousel */
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.slide {
+  display: none;
+}
+
+.slide.active {
+  display: block;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  font-size: 1px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+button:hover {
+  background: #F6F3EB;
 }
 
 .app-container {
@@ -632,10 +691,6 @@ body {
 .gridView .games-row:hover {
   transform: scale(1.01);
   box-shadow: var(--filter-shadow);
-}
-
-.gridView .games-row:hover .cell-more-button {
-  display: flex;
 }
 
 @media screen and (max-width: 1024px) {

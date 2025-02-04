@@ -3,12 +3,12 @@ import { getFirestore, doc, getDoc } from "https://www.gstatic.com/firebasejs/11
 
 // Configuración de Firebase
 const firebaseConfig = {
-    apiKey: "AIzaSyCpdOhhe7xj6vODNngBBWfLboNKdzOlToE",
-    authDomain: "codethink-e99d1.firebaseapp.com",
-    projectId: "codethink-e99d1",
-    storageBucket: "codethink-e99d1.firebasestorage.app",
-    messagingSenderId: "696144227588",
-    appId: "1:696144227588:web:0b9fc035d20107ff48f451"
+  apiKey: "AIzaSyCpdOhhe7xj6vODNngBBWfLboNKdzOlToE",
+  authDomain: "codethink-e99d1.firebaseapp.com",
+  projectId: "codethink-e99d1",
+  storageBucket: "codethink-e99d1.firebasestorage.app",
+  messagingSenderId: "696144227588",
+  appId: "1:696144227588:web:0b9fc035d20107ff48f451"
 };
 
 // Inicializar Firebase
@@ -20,8 +20,8 @@ async function loadUserData() {
   const userData = JSON.parse(localStorage.getItem("userData"));
 
   if (!userData || !userData.email) {
-      console.error("No user logged in!");
-      return;
+    console.error("No user logged in!");
+    return;
   }
 
   // Referencia a Firestore
@@ -29,8 +29,8 @@ async function loadUserData() {
   const userDoc = await getDoc(userRef);
 
   if (!userDoc.exists()) {
-      console.error("User data not found in Firestore");
-      return;
+    console.error("User data not found in Firestore");
+    return;
   }
 
   // Datos del usuario

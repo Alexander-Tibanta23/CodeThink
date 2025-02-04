@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CodeThink - Games</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <link rel="stylesheet" href="/css/games.css">
+    <link rel="stylesheet" href="/css/homePage.css">
 </head>
+
 <body>
     <div class="app-container" id="app-container">
         <div class="sidebar">
@@ -56,23 +57,41 @@
                 </button>
             </div>
         </div>
-        <div class="app-content">
 
-            <!--Aqui esta la parte de arriba para cambiar el modo de oscuro a claro y el titulo de cada parte del dashboard-->
-            <div class="app-content-header">
-                <h1 class="app-content-headerText">Games</h1>
-            </div>
-            
-            <div class="games-area-wrapper gridView">
-                <!--Juego 1-->
-                <!--Aqui van los juegos de manera dinamica extrayendo los datos de un JSON-->              
-            </div>
-
+        <div class="app-container">
+            <main>
+    
+                <!-- Benefits Carousel -->
+                <section class="section-box carousel" aria-label="Benefits of Learning with Games">
+                    <h2>Benefits of Learning with Games</h2>
+                    <div class="carousel-container">
+                        <div class="slide active"><p>🎮 Learning is fun! Games make learning English enjoyable.</p></div>
+                        <div class="slide"><p>🗣️ Improve pronunciation by listening and repeating words.</p></div>
+                        <div class="slide"><p>📖 Expand your vocabulary with interactive challenges.</p></div>
+                        <div class="slide"><p>✨ Stay motivated with rewards and progress tracking.</p></div>
+                    </div>
+                    <button class="prev" aria-label="Previous Slide">&lt;</button>
+                    <button class="next" aria-label="Next Slide">&gt;</button>
+                </section>
+    
+                <!-- Games Section (Now correctly positioned below Word of the Day) -->
+                <div class="app-content">
+                    <div class="app-content-header">
+                        <h1 class="app-content-headerText">Games</h1>
+                    </div>
+                    
+                    <div class="games-area-wrapper gridView">
+                        <!-- Aquí van los juegos dinámicos extraídos de un JSON -->
+                    </div>
+                </div>
+    
+            </main>
         </div>
     </div>
 </body>
 <script type="module" src="/controllers/Dashboard/actionDashboard.js"></script> 
+<script src="/controllers/Dashboard/infoPageDashboard.js"></script>
 <script src="/controllers/Message/accountInfoGame.js"></script>
 <script type="module" src="/controllers/User/logout.js"></script>
-<script  src="/controllers/Games/selectGames.js"></script>
+<script  src="/controllers/Games/selectRandomGames.js"></script>
 </html>

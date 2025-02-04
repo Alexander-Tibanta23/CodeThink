@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 card.id = 'cardTopic';
 
                 card.innerHTML = `
-                    <img src="/assets/img/games/ImagenJuego1.png" alt="Imagen">
+                    <img id="imagenTopic" src="${topic.image}" alt="Imagen">
                     <div class="content">
                         <div class="title" id="tituloTopic">${topic.title}</div>
                         <p id="descripcionTopic">${topic.description}</p>

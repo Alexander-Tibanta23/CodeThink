@@ -4,6 +4,7 @@
         "name": "Vocabulary",
         "title": "Vocabulary Practice",
         "description": "Improve your vocabulary with interactive games.",
+        "image": "/assets/img/games/ImagenJuego1.png",
         "games": ["game1", "game2"]
     },
     {
@@ -11,6 +12,7 @@
         "name": "Grammar",
         "title": "Grammar Challenge",
         "description": "Test your grammar skills in various challenges.",
+        "image": "/assets/img/games/ImagenJuego2.png",
         "games": ["game3", "game4"]
     }
 ]
