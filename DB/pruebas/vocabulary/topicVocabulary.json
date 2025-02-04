@@ -1,0 +1,34 @@
+[
+    {
+        "id": "topic1",
+        "name": "Everyday Objects",
+        "title": "Everyday Objects",
+        "description": "Learn vocabulary related to everyday objects through fun image-based games.",
+        "image": "/assets/img/games/vocabulary/topic/Topic1.jpeg",
+        "games": ["game21", "game22", "game23", "game24", "game25"]
+    },
+    {
+        "id": "topic2",
+        "name": "Actions and Verbs",
+        "title": "Actions and Verbs",
+        "description": "Identify different actions and verbs with interactive exercises.",
+        "image": "/assets/img/games/vocabulary/topic/Topic2.jpeg",
+        "games": ["game26", "game27", "game28", "game29", "game30"]
+    },
+    {
+        "id": "topic3",
+        "name": "Food and Drinks",
+        "title": "Food and Drinks",
+        "description": "Recognize different types of food and drinks through images and sentence completion.",
+        "image": "/assets/img/games/vocabulary/topic/Topic3.jpeg",
+        "games": ["game31", "game32", "game33", "game34", "game35"]
+    },
+    {
+        "id": "topic4",
+        "name": "Places and Directions",
+        "title": "Places and Directions",
+        "description": "Learn vocabulary related to places and how to ask for and give directions.",
+        "image": "/assets/img/games/vocabulary/topic/Topic4.jpeg",
+        "games": ["game36", "game37", "game38", "game39", "game40"]
+    }
+]

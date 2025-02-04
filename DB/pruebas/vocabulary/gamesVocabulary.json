@@ -1,0 +1,415 @@
+[
+    {
+        "id": "game21",
+        "image": "/assets/img/games/vocabulary/game/Game1.jpeg",
+        "title": "Name the Object",
+        "type": "Image Identification",
+        "status": "Active",
+        "difficulty": "Easy",
+        "feedback": "Great job!",
+        "duration": "5 min",
+        "points": "500",
+        "descriptionGame": "Look at the image and choose the correct name of the object.",
+        "instructions": [
+            "Look at the image shown.",
+            "Choose the correct name for the object.",
+            "Earn points for each correct answer!"
+        ],
+        "questions": [
+            {
+                "titleQuestion": "What is this?",
+                "imageQuestion": "/assets/img/games/vocabulary/game/question/chair.png",
+                "options": ["Chair", "Table", "Lamp", "Sofa"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "What is this?",
+                "imageQuestion": "/assets/img/games/vocabulary/game/question/pen.png",
+                "options": ["Pencil", "Pen", "Eraser", "Book"],
+                "correctOption": 1,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "What do you call this?",
+                "imageQuestion": "/assets/img/games/vocabulary/game/question/phone.png",
+                "options": ["Laptop", "TV", "Phone", "Tablet"],
+                "correctOption": 2,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "What is this?",
+                "imageQuestion": "/assets/img/games/vocabulary/game/question/backpack.png",
+                "options": ["Backpack", "Suitcase", "Handbag", "Wallet"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "What do you see in the image?",
+                "imageQuestion": "/assets/img/games/vocabulary/game/question/clock.png",
+                "options": ["Clock", "Mirror", "Picture Frame", "Calendar"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            }
+        ]
+    },
+    {
+        "id": "game22",
+        "image": "/assets/img/games/vocabulary/game/Game2.jpeg",
+        "title": "Match the Object with Its Use",
+        "type": "Multiple Choice",
+        "status": "Active",
+        "difficulty": "Easy",
+        "feedback": "Well done!",
+        "duration": "5 min",
+        "points": "500",
+        "descriptionGame": "Choose what the object is used for.",
+        "instructions": [
+            "Look at the image and read the question.",
+            "Choose the correct use of the object.",
+            "Earn points for each correct answer!"
+        ],
+        "questions": [
+            {
+                "titleQuestion": "What do you use a pencil for?",
+                "imageQuestion": "/assets/img/games/vocabulary/game/question/pencil.png",
+                "options": ["Writing", "Cooking", "Cutting", "Playing"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "What do you use a spoon for?",
+                "imageQuestion": "/assets/img/games/vocabulary/game/question/spoon.png",
+                "options": ["Eating", "Cleaning", "Drawing", "Sleeping"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "What is a backpack used for?",
+                "imageQuestion": "/assets/img/games/vocabulary/game/question/backpack.png",
+                "options": ["Carrying books", "Driving", "Sleeping", "Cooking"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "What is a TV used for?",
+                "imageQuestion": "/assets/img/games/vocabulary/game/question/TV.png",
+                "options": ["Watching shows", "Reading", "Writing", "Cooking"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "What do you use a comb for?",
+                "imageQuestion": "/assets/img/games/vocabulary/game/question/comb.png",
+                "options": ["Brushing hair", "Eating", "Drinking", "Writing"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            }
+        ]
+    },
+    {
+        "id": "game26",
+        "image": "/assets/img/games/vocabulary/game/Game3.jpeg",
+        "title": "What is the Action?",
+        "type": "Image Identification",
+        "status": "Active",
+        "difficulty": "Easy",
+        "feedback": "Great job!",
+        "duration": "5 min",
+        "points": "500",
+        "descriptionGame": "Look at the image and choose the correct action word.",
+        "instructions": [
+            "Look at the image shown.",
+            "Choose the correct verb that matches the action.",
+            "Earn points for each correct answer!"
+        ],
+        "questions": [
+            {
+                "titleQuestion": "What is he doing?",
+                "imageQuestion": "/assets/img/games/vocabulary/game/question/run.png",
+                "options": ["Running", "Jumping", "Sleeping", "Eating"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "What is she doing?",
+                "imageQuestion": "/assets/img/games/vocabulary/game/question/swim.png",
+                "options": ["Reading", "Swimming", "Writing", "Dancing"],
+                "correctOption": 1,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "What are they doing?",
+                "imageQuestion": "/assets/img/games/vocabulary/game/question/soccer.png",
+                "options": ["Playing soccer", "Cooking", "Sleeping", "Singing"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "What is the boy doing?",
+                "imageQuestion": "/assets/img/games/vocabulary/game/question/Laughing.png",
+                "options": ["Crying", "Laughing", "Running", "Climbing"],
+                "correctOption": 1,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "What is the girl doing?",
+                "imageQuestion": "/assets/img/games/vocabulary/game/question/Painting.png",
+                "options": ["Sleeping", "Eating", "Painting", "Jumping"],
+                "correctOption": 2,
+                "score": 100,
+                "time": 30
+            }
+        ]
+    },
+    {
+        "id": "game27",
+        "image": "/assets/img/games/vocabulary/game/Game6.jpeg",
+        "title": "Complete the Sentence",
+        "type": "Sentence Completion",
+        "status": "Active",
+        "difficulty": "Easy",
+        "feedback": "Awesome!",
+        "duration": "5 min",
+        "points": "500",
+        "descriptionGame": "Choose the correct verb to complete each sentence.",
+        "instructions": [
+            "Read the sentence carefully.",
+            "Choose the correct verb that fits in the blank.",
+            "Earn points for each correct answer!"
+        ],
+        "questions": [
+            {
+                "titleQuestion": "I ____ to school every day.",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": ["Run", "Walk", "Swim", "Jump"],
+                "correctOption": 1,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "She loves to ____ in the park.",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": ["Dance", "Sleep", "Eat", "Read"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "We ____ books in the library.",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": ["Eat", "Drink", "Read", "Cook"],
+                "correctOption": 2,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "He ____ his homework before dinner.",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": ["Writes", "Cooks", "Runs", "Jumps"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "They ____ songs at the school concert.",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": ["Sing", "Dance", "Read", "Sleep"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            }
+        ]
+    },
+    {
+        "id": "game31",
+        "image": "/assets/img/games/vocabulary/game/Game8.jpeg",
+        "title": "What is This Food?",
+        "type": "Image Identification",
+        "status": "Active",
+        "difficulty": "Easy",
+        "feedback": "Great choice!",
+        "duration": "5 min",
+        "points": "500",
+        "descriptionGame": "Look at the image and choose the correct name of the food item.",
+        "instructions": [
+            "Look at the image shown.",
+            "Choose the correct name of the food or drink.",
+            "Earn points for each correct answer!"
+        ],
+        "questions": [
+            {
+                "titleQuestion": "What is this?",
+                "imageQuestion": "/assets/img/games/vocabulary/game/question/banana.png",
+                "options": ["Apple", "Banana", "Grapes", "Orange"],
+                "correctOption": 1,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "What is this?",
+                "imageQuestion": "/assets/img/games/vocabulary/game/question/water.png",
+                "options": ["Milk", "Juice", "Water", "Soda"],
+                "correctOption": 2,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Which food is this?",
+                "imageQuestion": "/assets/img/games/vocabulary/game/question/pizza.png",
+                "options": ["Pizza", "Burger", "Pasta", "Rice"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "What do you call this?",
+                "imageQuestion": "/assets/img/games/vocabulary/game/question/Cucumber.png",
+                "options": ["Carrot", "Tomato", "Potato", "Cucumber"],
+                "correctOption": 3,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "What drink is this?",
+                "imageQuestion": "/assets/img/games/vocabulary/game/question/coffee.png",
+                "options": ["Juice", "Milk", "Tea", "Coffee"],
+                "correctOption": 3,
+                "score": 100,
+                "time": 30
+            }
+        ]
+    },
+    {
+        "id": "game32",
+        "image": "/assets/img/games/vocabulary/game/Game10.jpeg",
+        "title": "Complete the Food Sentence",
+        "type": "Sentence Completion",
+        "status": "Active",
+        "difficulty": "Easy",
+        "feedback": "Yummy!",
+        "duration": "5 min",
+        "points": "500",
+        "descriptionGame": "Choose the correct food word to complete the sentence.",
+        "instructions": [
+            "Read the sentence carefully.",
+            "Choose the correct food-related word.",
+            "Earn points for each correct answer!"
+        ],
+        "questions": [
+            {
+                "titleQuestion": "I like to eat ____ for breakfast.",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": ["Pizza", "Eggs", "Soup", "Ice Cream"],
+                "correctOption": 1,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "She is drinking ____.",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": ["Juice", "Rice", "Salad", "Cake"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "I love eating ____ on a hot day.",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": ["Soup", "Ice Cream", "Bread", "Pasta"],
+                "correctOption": 1,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "For lunch, we eat ____ and vegetables.",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": ["Rice", "Juice", "Milk", "Cereal"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "A birthday cake is usually sweet and made of ____.",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": ["Rice", "Chocolate", "Fish", "Carrots"],
+                "correctOption": 1,
+                "score": 100,
+                "time": 30
+            }
+        ]
+    },
+    {
+        "id": "game36",
+        "image": "/assets/img/games/vocabulary/game/Game14.jpeg",
+        "title": "Identify the Place",
+        "type": "Image Identification",
+        "status": "Active",
+        "difficulty": "Easy",
+        "feedback": "Well done!",
+        "duration": "5 min",
+        "points": "500",
+        "descriptionGame": "Look at the image and choose the correct place name.",
+        "instructions": [
+            "Look at the image shown.",
+            "Choose the correct name for the place.",
+            "Earn points for each correct answer!"
+        ],
+        "questions": [
+            {
+                "titleQuestion": "What place is this?",
+                "imageQuestion": "/assets/img/games/vocabulary/game/question/school.png",
+                "options": ["School", "Hospital", "Library", "Bank"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Where do you go to read books?",
+                "imageQuestion": "/assets/img/games/vocabulary/game/question/library.png",
+                "options": ["Restaurant", "Library", "Supermarket", "Gym"],
+                "correctOption": 1,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Where do doctors work?",
+                "imageQuestion": "/assets/img/games/vocabulary/game/question/hospital.png",
+                "options": ["Hospital", "Park", "School", "Mall"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Where do you buy food?",
+                "imageQuestion": "/assets/img/games/vocabulary/game/question/Supermarket.png",
+                "options": ["Supermarket", "Bank", "Library", "Hospital"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Where do you go to watch movies?",
+                "imageQuestion": "/assets/img/games/vocabulary/game/question/Cinema.png",
+                "options": ["School", "Gym", "Cinema", "Park"],
+                "correctOption": 2,
+                "score": 100,
+                "time": 30
+            }
+        ]
+    }       
+]
