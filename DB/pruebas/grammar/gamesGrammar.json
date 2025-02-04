@@ -1,0 +1,717 @@
+[
+    {
+        "id": "game1",
+        "image": "/assets/img/games/GrammarBasics1.png",
+        "title": "Find the Subject!",
+        "type": "Multiple Choice",
+        "status": "Active",
+        "difficulty": "Easy",
+        "feedback": "Great job!",
+        "duration": "5 min",
+        "points": "500",
+        "descriptionGame": "Identify the subject in simple sentences.",
+        "instructions": [
+            "Read the sentence carefully.",
+            "Choose the correct subject from the four options.",
+            "Earn points for every correct answer!"
+        ],
+        "questions": [
+            {
+                "titleQuestion": "What is the subject in this sentence? 'The cat sleeps on the couch.'",
+                "imageQuestion": "/assets/img/questions/grammar1.png",
+                "options": ["The cat", "Sleeps", "On the couch", "The"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Find the subject: 'My brother plays soccer.'",
+                "imageQuestion": "/assets/img/questions/grammar2.png",
+                "options": ["My", "Brother", "Plays", "Soccer"],
+                "correctOption": 1,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Identify the subject: 'Anna and Peter read books.'",
+                "imageQuestion": "/assets/img/questions/grammar3.png",
+                "options": ["Anna and Peter", "Read", "Books", "The"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Which is the subject? 'The blue car is fast.'",
+                "imageQuestion": "/assets/img/questions/grammar4.png",
+                "options": ["The blue car", "Is", "Fast", "Blue"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Choose the correct subject: 'Our teacher gives us homework.'",
+                "imageQuestion": "/assets/img/questions/grammar5.png",
+                "options": ["Our teacher", "Gives", "Us", "Homework"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            }
+        ]
+    },
+    {
+        "id": "game2",
+        "image": "/assets/img/games/GrammarBasics2.png",
+        "title": "Where’s the Verb?",
+        "type": "Multiple Choice",
+        "status": "Active",
+        "difficulty": "Medium",
+        "feedback": "You're improving!",
+        "duration": "5 min",
+        "points": "500",
+        "descriptionGame": "Find the verb in different sentences.",
+        "instructions": [
+            "Read the given sentence.",
+            "Select the verb from the four options.",
+            "Each correct answer gives you points!"
+        ],
+        "questions": [
+            {
+                "titleQuestion": "Find the verb: 'She runs fast.'",
+                "imageQuestion": "/assets/img/questions/grammar6.png",
+                "options": ["She", "Runs", "Fast", "The"],
+                "correctOption": 1,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Which word is the verb? 'They eat lunch at noon.'",
+                "imageQuestion": "/assets/img/questions/grammar7.png",
+                "options": ["They", "Eat", "Lunch", "Noon"],
+                "correctOption": 1,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "What is the action word? 'My dad cooks dinner.'",
+                "imageQuestion": "/assets/img/questions/grammar8.png",
+                "options": ["My dad", "Cooks", "Dinner", "The"],
+                "correctOption": 1,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Choose the verb: 'We jump in the pool.'",
+                "imageQuestion": "/assets/img/questions/grammar9.png",
+                "options": ["We", "Jump", "Pool", "The"],
+                "correctOption": 1,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Find the action word: 'The baby cries loudly.'",
+                "imageQuestion": "/assets/img/questions/grammar10.png",
+                "options": ["The baby", "Cries", "Loudly", "The"],
+                "correctOption": 1,
+                "score": 100,
+                "time": 30
+            }
+        ]
+    },
+    {
+        "id": "game3",
+        "image": "/assets/img/games/GrammarBasics3.png",
+        "title": "Adjective Adventure",
+        "type": "Multiple Choice",
+        "status": "Active",
+        "difficulty": "Easy",
+        "feedback": "Nice work!",
+        "duration": "5 min",
+        "points": "500",
+        "descriptionGame": "Identify adjectives in sentences.",
+        "instructions": [
+            "Look at the sentence.",
+            "Select the correct adjective.",
+            "Earn points for each correct answer!"
+        ],
+        "questions": [
+            {
+                "titleQuestion": "Find the adjective: 'The big dog barked loudly.'",
+                "imageQuestion": "/assets/img/questions/grammar8.png",
+                "options": ["Big", "Dog", "Barked", "Loudly"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Which word is an adjective? 'The happy boy plays in the park.'",
+                "imageQuestion": "/assets/img/questions/grammar12.png",
+                "options": ["Happy", "Boy", "Plays", "Park"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Choose the adjective: 'She wore a red dress.'",
+                "imageQuestion": "/assets/img/questions/grammar13.png",
+                "options": ["Red", "She", "Dress", "Wore"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Find the describing word: 'The tall giraffe eats leaves.'",
+                "imageQuestion": "/assets/img/questions/grammar14.png",
+                "options": ["Tall", "Giraffe", "Eats", "Leaves"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Which word describes something? 'It was a cold night.'",
+                "imageQuestion": "/assets/img/questions/grammar15.png",
+                "options": ["Cold", "It", "Night", "Was"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            }
+        ]
+    },
+    {
+        "id": "game4",
+        "image": "/assets/img/games/GrammarBasics4.png",
+        "title": "The Power of Prepositions",
+        "type": "Multiple Choice",
+        "status": "Active",
+        "difficulty": "Medium",
+        "feedback": "Well done!",
+        "duration": "5 min",
+        "points": "500",
+        "descriptionGame": "Find the correct preposition in sentences.",
+        "instructions": [
+            "Read the sentence carefully.",
+            "Select the correct preposition from the four options.",
+            "Each correct answer gives you points!"
+        ],
+        "questions": [
+            {
+                "titleQuestion": "Choose the correct preposition: 'The book is ___ the table.'",
+                "imageQuestion": "/assets/img/questions/grammar16.png",
+                "options": ["On", "In", "Under", "Next to"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Find the missing preposition: 'She is sitting ___ the chair.'",
+                "imageQuestion": "/assets/img/questions/grammar17.png",
+                "options": ["On", "In", "At", "Over"],
+                "correctOption": 1,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Select the preposition: 'We are going ___ the park.'",
+                "imageQuestion": "/assets/img/questions/grammar18.png",
+                "options": ["To", "For", "At", "With"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Choose the right word: 'The cat is hiding ___ the couch.'",
+                "imageQuestion": "/assets/img/questions/grammar19.png",
+                "options": ["Under", "On", "Above", "Behind"],
+                "correctOption": 3,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Which preposition fits? 'He arrived ___ time for the meeting.'",
+                "imageQuestion": "/assets/img/questions/grammar20.png",
+                "options": ["On", "In", "At", "Before"],
+                "correctOption": 2,
+                "score": 100,
+                "time": 30
+            }
+        ]
+    },    
+    {
+        "id": "game5",
+        "image": "/assets/img/games/GrammarBasics5.png",
+        "title": "Plurals and Singulars",
+        "type": "Multiple Choice",
+        "status": "Active",
+        "difficulty": "Easy",
+        "feedback": "Fantastic!",
+        "duration": "5 min",
+        "points": "500",
+        "descriptionGame": "Learn the difference between singular and plural words.",
+        "instructions": [
+            "Read the sentence.",
+            "Choose the correct singular or plural form.",
+            "Earn points for every right answer!"
+        ],
+        "questions": [
+            {
+                "titleQuestion": "What is the plural of 'apple'?",
+                "imageQuestion": "/assets/img/questions/grammar10.png",
+                "options": ["Apple", "Apples", "Appless", "Applees"],
+                "correctOption": 1,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Which is the correct singular form?",
+                "imageQuestion": "/assets/img/questions/grammar11.png",
+                "options": ["Dog", "Dogs", "Doges", "Doggies"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Which word is plural?",
+                "imageQuestion": "/assets/img/questions/grammar12.png",
+                "options": ["Cat", "Mouse", "Houses", "Child"],
+                "correctOption": 2,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "What is the plural of 'baby'?",
+                "imageQuestion": "/assets/img/questions/grammar13.png",
+                "options": ["Babys", "Babyes", "Babies", "Babie"],
+                "correctOption": 2,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Choose the correct singular form.",
+                "imageQuestion": "/assets/img/questions/grammar14.png",
+                "options": ["Men", "Childs", "Woman", "Mice"],
+                "correctOption": 2,
+                "score": 100,
+                "time": 30
+            }
+        ]
+    },
+    {
+        "id": "game11",
+        "image": "/assets/img/games/SentenceStructure1.png",
+        "title": "Build the Sentence",
+        "type": "Word Order",
+        "status": "Active",
+        "difficulty": "Easy",
+        "feedback": "Great Job!",
+        "duration": "5 min",
+        "points": "500",
+        "descriptionGame": "Put the words in the correct order to form a sentence.",
+        "instructions": [
+            "Read the words.",
+            "Drag and drop them into the correct order.",
+            "Submit your answer and earn points!"
+        ],
+        "questions": [
+            {
+                "titleQuestion": "Rearrange the words: 'is / The / black / cat'",
+                "imageQuestion": "/assets/img/questions/sentence1.png",
+                "options": [
+                    "The cat black is.",
+                    "The black cat is.",
+                    "The cat is black.",
+                    "Black the is cat."
+                ],
+                "correctOption": 2,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Rearrange the words: 'go / school / I / to'",
+                "imageQuestion": "/assets/img/questions/sentence2.png",
+                "options": [
+                    "Go school I to.",
+                    "I go to school.",
+                    "I to go school.",
+                    "School go I to."
+                ],
+                "correctOption": 1,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Rearrange the words: 'like / pizza / I'",
+                "imageQuestion": "/assets/img/questions/sentence3.png",
+                "options": [
+                    "I pizza like.",
+                    "Pizza like I.",
+                    "I like pizza.",
+                    "Like I pizza."
+                ],
+                "correctOption": 2,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Rearrange the words: 'She / very / is / happy'",
+                "imageQuestion": "/assets/img/questions/sentence4.png",
+                "options": [
+                    "Happy she is very.",
+                    "She very happy is.",
+                    "She is happy very.",
+                    "She is very happy."
+                ],
+                "correctOption": 3,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Rearrange the words: 'run / fast / dogs'",
+                "imageQuestion": "/assets/img/questions/sentence5.png",
+                "options": [
+                    "Dogs run fast.",
+                    "Fast dogs run.",
+                    "Run fast dogs.",
+                    "Dogs fast run."
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            }
+        ]
+    },
+    {
+        "id": "game12",
+        "image": "/assets/img/games/SentenceStructure2.png",
+        "title": "Fix the Mistake",
+        "type": "Error Correction",
+        "status": "Active",
+        "difficulty": "Medium",
+        "feedback": "Well Done!",
+        "duration": "5 min",
+        "points": "500",
+        "descriptionGame": "Find and correct the mistake in the sentence.",
+        "instructions": [
+            "Read the sentence carefully.",
+            "Identify the mistake.",
+            "Select the correct version of the sentence."
+        ],
+        "questions": [
+            {
+                "titleQuestion": "Identify the correct sentence: 'He go to school every day.'",
+                "imageQuestion": "/assets/img/questions/error1.png",
+                "options": [
+                    "He go to school every day.",
+                    "He goes to school every day.",
+                    "He going to school every day.",
+                    "He gone to school every day."
+                ],
+                "correctOption": 1,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Choose the correct sentence: 'She play the piano beautifully.'",
+                "imageQuestion": "/assets/img/questions/error2.png",
+                "options": [
+                    "She play the piano beautifully.",
+                    "She playing the piano beautifully.",
+                    "She plays the piano beautifully.",
+                    "She played piano beautifully."
+                ],
+                "correctOption": 2,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Find the correct sentence: 'We is going home now.'",
+                "imageQuestion": "/assets/img/questions/error3.png",
+                "options": [
+                    "We is going home now.",
+                    "We are going home now.",
+                    "We be going home now.",
+                    "We am going home now."
+                ],
+                "correctOption": 1,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Choose the correct version: 'They has a big house.'",
+                "imageQuestion": "/assets/img/questions/error4.png",
+                "options": [
+                    "They has a big house.",
+                    "They have a big house.",
+                    "They haves a big house.",
+                    "They having a big house."
+                ],
+                "correctOption": 1,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Find the correct sentence: 'I likes to read books.'",
+                "imageQuestion": "/assets/img/questions/error5.png",
+                "options": [
+                    "I likes to read books.",
+                    "I like to read books.",
+                    "I liking to read books.",
+                    "I liked to read books."
+                ],
+                "correctOption": 1,
+                "score": 100,
+                "time": 30
+            }
+        ]
+    },
+    {
+        "id": "game13",
+        "image": "/assets/img/games/SentenceStructure3.png",
+        "title": "Identify the Subject and Verb",
+        "type": "Multiple Choice",
+        "status": "Active",
+        "difficulty": "Medium",
+        "feedback": "Awesome!",
+        "duration": "5 min",
+        "points": "500",
+        "descriptionGame": "Identify the subject and verb in the sentence.",
+        "instructions": [
+            "Read the sentence carefully.",
+            "Choose the subject and verb.",
+            "Earn points for each correct answer."
+        ],
+        "questions": [
+            {
+                "titleQuestion": "What is the subject and verb in the sentence: 'The dog runs fast.'?",
+                "imageQuestion": "/assets/img/questions/subject1.png",
+                "options": [
+                    "The dog - runs",
+                    "The dog - fast",
+                    "Runs - dog",
+                    "Dog - the"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "What is the subject and verb in the sentence: 'She plays the piano beautifully.'?",
+                "imageQuestion": "/assets/img/questions/subject2.png",
+                "options": [
+                    "She - beautifully",
+                    "Plays - piano",
+                    "She - plays",
+                    "Piano - beautifully"
+                ],
+                "correctOption": 2,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "What is the subject and verb in the sentence: 'They are eating lunch.'?",
+                "imageQuestion": "/assets/img/questions/subject3.png",
+                "options": [
+                    "They - eating",
+                    "Are - lunch",
+                    "They - are",
+                    "Eating - lunch"
+                ],
+                "correctOption": 2,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "What is the subject and verb in the sentence: 'The birds sing songs.'?",
+                "imageQuestion": "/assets/img/questions/subject4.png",
+                "options": [
+                    "Birds - sing",
+                    "The - birds",
+                    "Sing - songs",
+                    "The - sing"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "What is the subject and verb in the sentence: 'John likes to read books.'?",
+                "imageQuestion": "/assets/img/questions/subject5.png",
+                "options": [
+                    "John - read",
+                    "Likes - books",
+                    "John - likes",
+                    "Books - read"
+                ],
+                "correctOption": 2,
+                "score": 100,
+                "time": 30
+            }
+        ]
+    },
+    {
+        "id": "game14",
+        "image": "/assets/img/games/SentenceStructure4.png",
+        "title": "Match the Subject and Predicate",
+        "type": "Matching",
+        "status": "Active",
+        "difficulty": "Medium",
+        "feedback": "Nice Work!",
+        "duration": "5 min",
+        "points": "500",
+        "descriptionGame": "Match the subject with the correct predicate.",
+        "instructions": [
+            "You will see subjects and predicates separated.",
+            "Drag the correct predicate to match the subject.",
+            "Earn points for each correct match!"
+        ],
+        "questions": [
+            {
+                "titleQuestion": "Match the subject with the correct predicate: 'I' - 'play basketball.'",
+                "imageQuestion": "/assets/img/questions/match1.png",
+                "options": [
+                    "I - play basketball",
+                    "She - goes to school",
+                    "They - read books",
+                    "He - eats pizza"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Match the subject with the correct predicate: 'He' - 'writes stories.'",
+                "imageQuestion": "/assets/img/questions/match2.png",
+                "options": [
+                    "He - writes stories",
+                    "They - play games",
+                    "She - sings songs",
+                    "We - draw pictures"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Match the subject with the correct predicate: 'The cat' - 'sleeps on the bed.'",
+                "imageQuestion": "/assets/img/questions/match3.png",
+                "options": [
+                    "The cat - sleeps on the bed",
+                    "I - run fast",
+                    "You - play soccer",
+                    "She - study English"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Match the subject with the correct predicate: 'They' - 'eat lunch.'",
+                "imageQuestion": "/assets/img/questions/match4.png",
+                "options": [
+                    "They - eat lunch",
+                    "We - draw together",
+                    "He - rides a bike",
+                    "She - writes letters"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Match the subject with the correct predicate: 'John' - 'plays the guitar.'",
+                "imageQuestion": "/assets/img/questions/match5.png",
+                "options": [
+                    "John - plays the guitar",
+                    "We - play tennis",
+                    "They - jump rope",
+                    "She - reads books"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            }
+        ]
+    },
+    {
+        "id": "game15",
+        "image": "/assets/img/games/SentenceStructure5.png",
+        "title": "Fill in the Blanks",
+        "type": "Fill in the Blanks",
+        "status": "Active",
+        "difficulty": "Medium",
+        "feedback": "Excellent!",
+        "duration": "5 min",
+        "points": "500",
+        "descriptionGame": "Fill in the blanks to complete the sentence.",
+        "instructions": [
+            "Read the sentence carefully.",
+            "Choose the correct word to complete the sentence.",
+            "Earn points for each correct answer!"
+        ],
+        "questions": [
+            {
+                "titleQuestion": "Fill in the blank: 'I ______ to the park.'",
+                "imageQuestion": "/assets/img/questions/blank1.png",
+                "options": [
+                    "go",
+                    "went",
+                    "going",
+                    "gone"
+                ],
+                "correctOption": 1,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Fill in the blank: 'She ______ her homework.'",
+                "imageQuestion": "/assets/img/questions/blank2.png",
+                "options": [
+                    "do",
+                    "doing",
+                    "does",
+                    "did"
+                ],
+                "correctOption": 3,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Fill in the blank: 'They ______ to school by bus.'",
+                "imageQuestion": "/assets/img/questions/blank3.png",
+                "options": [
+                    "go",
+                    "going",
+                    "goes",
+                    "gone"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Fill in the blank: 'He ______ in the garden.'",
+                "imageQuestion": "/assets/img/questions/blank4.png",
+                "options": [
+                    "is working",
+                    "working",
+                    "works",
+                    "work"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Fill in the blank: 'We ______ a picnic yesterday.'",
+                "imageQuestion": "/assets/img/questions/blank5.png",
+                "options": [
+                    "have",
+                    "had",
+                    "having",
+                    "has"
+                ],
+                "correctOption": 1,
+                "score": 100,
+                "time": 30
+            }
+        ]
+    }   
+]

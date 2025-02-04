@@ -1,0 +1,34 @@
+[
+    {
+        "id": "topic1",
+        "name": "Grammar Basics",
+        "title": "Grammar Basics",
+        "description": "Learn the foundation of English grammar with fun activities.",
+        "image": "/assets/img/games/GrammarBasics.png",
+        "games": ["game1", "game2", "game3", "game4", "game5"]
+    },
+    {
+        "id": "topic2",
+        "name": "Verbs and Actions",
+        "title": "Verbs and Actions",
+        "description": "Practice using verbs and actions in sentences.",
+        "image": "/assets/img/games/VerbsActions.png",
+        "games": ["game6", "game7", "game8", "game9", "game10"]
+    },
+    {
+        "id": "topic3",
+        "name": "Sentence Structure",
+        "title": "Sentence Structure",
+        "description": "Understand how sentences are built with different parts of speech.",
+        "image": "/assets/img/games/SentenceStructure.png",
+        "games": ["game11", "game12", "game13", "game14", "game15"]
+    },
+    {
+        "id": "topic4",
+        "name": "Phonics and Sounds",
+        "title": "Phonics and Sounds",
+        "description": "Improve pronunciation and word recognition with phonics games.",
+        "image": "/assets/img/games/PhonicsSounds.png",
+        "games": ["game16", "game17", "game18", "game19", "game20"]
+    }
+]
