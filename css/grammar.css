@@ -1,0 +1,405 @@
+/* Sidebar estilo base */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+:root {
+    --app-bg: #fff;
+    --sidebar: #83b7c0;
+    --sidebar-main-color: #ffffff;
+    /* logo y nombre */
+    --app-content-secondary-color: #f3f6fd;
+    --app-content-main-color: #1f1c2e;
+    --sidebar-link: #ffffff;
+    --sidebar-hover-link: rgba(195, 207, 244, 0.5);
+    --sidebar-active-link: #448894;
+    --action-color: #0C4976;
+    /*Color derecha seccion actual de los botones, texto filtro y color al seleccionar partes*/
+    --action-color-hover: #1f1c2e;
+    /*Color al pasar el mouse busqueda y filtro*/
+    --filter-reset: #0c4976;
+    --filter-shadow: rgba(58, 55, 55, 0.2) 0px 2px 8px 0px;
+}
+
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    background-color: var(--app-bg);
+}
+
+/* Contenedor principal */
+.app-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Main container */
+main {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+main::-webkit-scrollbar {
+    display: none;
+}
+
+
+.app-container {
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    max-width: 1280px;
+    display: flex;
+    overflow: hidden;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.sidebar {
+    flex-basis: 200px;
+    max-width: 200px;
+    flex-shrink: 0;
+    background-color: var(--sidebar);
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 18.4px;
+    padding: 16px;
+}
+
+.sidebar-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar-list-item {
+    position: relative;
+    margin-bottom: 4px;
+}
+
+.sidebar-list-item a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 16px;
+    color: var(--sidebar-link);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.sidebar-list-item svg {
+    margin-right: 8px;
+}
+
+.sidebar-list-item:hover {
+    background-color: var(--sidebar-hover-link);
+}
+
+.sidebar-list-item.active {
+    background-color: var(--sidebar-active-link);
+}
+
+.sidebar-list-item.active:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    background-color: var(--action-color);
+    height: 100%;
+    width: 4px;
+}
+
+@media screen and (max-width: 1024px) {
+    .sidebar {
+        display: none;
+    }
+}
+
+.account-info {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    border-top: 1px solid rgba(163, 3, 3, 0.2);
+}
+
+.account-info-header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 8px;
+}
+
+.account-info-picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+
+.account-info-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.account-info-name {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 16.1px;
+    color: var(--sidebar-main-color);
+}
+
+.account-info-level-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.level-label {
+    line-height: 13.8px;
+    font-size: 12px;
+    color: var(--sidebar-main-color);
+    opacity: 0.8;
+    margin-bottom: 4px;
+}
+
+.level-bar {
+    width: 95%;
+    height: 8px;
+    background: #ccc;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.level-progress {
+    height: 100%;
+    background: #0c4976;
+    border-radius: 3px;
+    width: 60%;
+    /* Cambia según el nivel */
+}
+
+.account-info-more {
+    margin-top: 8px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--sidebar-main-color);
+}
+
+.app-content-headerText {
+    color: var(--app-content-main-color);
+    font-size: 29px;
+    line-height: 58px;
+    margin: 0;
+}
+
+.action-button {
+    border-radius: 4px;
+    height: 32px;
+    background-color: var(--app-content-secondary-color);
+    border: 1px solid var(--app-content-secondary-color);
+    display: flex;
+    align-items: center;
+    color: var(--app-content-main-color);
+    font-size: 14px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.action-button span {
+    margin-right: 4px;
+}
+
+.action-button:hover {
+    border-color: var(--action-color-hover);
+}
+
+.action-button:focus,
+.action-button.active {
+    outline: none;
+    color: var(--action-color);
+    border-color: var(--action-color);
+}
+
+.filter-button-wrapper {
+    position: relative;
+}
+
+/*Fin base*/
+
+.slider {
+    margin-left: 100px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    max-width: 1000px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: white;
+    border-radius: 35px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 990px;
+    height: 180px;
+    padding: 20px;
+    margin: 10px;
+    justify-content: space-between;
+    transition: background-color 0.3s ease;
+    /* Transición suave */
+}
+
+.card:hover {
+    background-color: rgba(195, 207, 244, 0.5);
+    /* Cambio de color suave al pasar el mouse */
+}
+
+.card img {
+    border-radius: 35px;
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.content {
+    flex: 1;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* Contenedor de estadísticas */
+.stats-container {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.stat-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.stat-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffeef1;
+    border-radius: 10px;
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #e91e63;
+}
+
+.stat-box svg {
+    width: 30px;
+    height: 30px;
+    fill: #e91e63;
+}
+
+.stat-text {
+    font-size: 0.95em;
+    display: flex;
+    flex-direction: column;
+    color: #333;
+}
+
+.stat-value {
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #333;
+}
+
+.stat-label {
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* Estilos del progreso circular */
+.circle-wrap {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.circle-wrap .circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    background: conic-gradient(#227ded 270deg, #ddd 0deg);
+}
+
+.circle-wrap .inside-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #fff;
+    line-height: 80px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    background: rgb(138, 138, 185);
+    color: white;
+    order: 2px solid #ff4f4f;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 0.1px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background: #F6F3EB;
+}
