@@ -19,7 +19,7 @@
         "id": "topic3",
         "name": "Food and Drinks",
         "title": "Food and Drinks",
-        "description": "Recognize different types of food and drinks through images and sentence completion.",
+        "description": "Recognize different types of food through images and sentence completion.",
         "image": "/assets/img/games/vocabulary/topic/Topic3.jpeg",
         "games": ["game31", "game32", "game33", "game34", "game35"]
     },
@@ -28,7 +28,7 @@
         "name": "Places and Directions",
         "title": "Places and Directions",
         "description": "Learn vocabulary related to places and how to ask for and give directions.",
-        "image": "/assets/img/games/vocabulary/topic/Topic4.jpeg",
+        "image": "/assets/img/games/vocabulary/topic/Topic4.png",
         "games": ["game36", "game37", "game38", "game39", "game40"]
     }
 ]
