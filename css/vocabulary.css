@@ -53,6 +53,11 @@ main {
     flex-direction: column;
     gap: 20px;
     overflow-y: auto;
+    scrollbar-width: none;
+}
+
+main::-webkit-scrollbar {
+    display: none;
 }
 
 
@@ -271,7 +276,7 @@ main {
     border-radius: 35px;
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 790px;
+    width: 990px;
     height: 180px;
     padding: 20px;
     margin: 10px;

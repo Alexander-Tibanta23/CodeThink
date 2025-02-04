@@ -1,7 +1,7 @@
 [
     {
         "id": "game1",
-        "image": "/assets/img/games/GrammarBasics1.png",
+        "image": "",
         "title": "Find the Subject!",
         "type": "Multiple Choice",
         "status": "Active",
@@ -18,7 +18,7 @@
         "questions": [
             {
                 "titleQuestion": "What is the subject in this sentence? 'The cat sleeps on the couch.'",
-                "imageQuestion": "/assets/img/questions/grammar1.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": ["The cat", "Sleeps", "On the couch", "The"],
                 "correctOption": 0,
                 "score": 100,
@@ -26,7 +26,7 @@
             },
             {
                 "titleQuestion": "Find the subject: 'My brother plays soccer.'",
-                "imageQuestion": "/assets/img/questions/grammar2.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": ["My", "Brother", "Plays", "Soccer"],
                 "correctOption": 1,
                 "score": 100,
@@ -34,7 +34,7 @@
             },
             {
                 "titleQuestion": "Identify the subject: 'Anna and Peter read books.'",
-                "imageQuestion": "/assets/img/questions/grammar3.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": ["Anna and Peter", "Read", "Books", "The"],
                 "correctOption": 0,
                 "score": 100,
@@ -42,7 +42,7 @@
             },
             {
                 "titleQuestion": "Which is the subject? 'The blue car is fast.'",
-                "imageQuestion": "/assets/img/questions/grammar4.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": ["The blue car", "Is", "Fast", "Blue"],
                 "correctOption": 0,
                 "score": 100,
@@ -50,7 +50,7 @@
             },
             {
                 "titleQuestion": "Choose the correct subject: 'Our teacher gives us homework.'",
-                "imageQuestion": "/assets/img/questions/grammar5.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": ["Our teacher", "Gives", "Us", "Homework"],
                 "correctOption": 0,
                 "score": 100,
@@ -77,7 +77,7 @@
         "questions": [
             {
                 "titleQuestion": "Find the verb: 'She runs fast.'",
-                "imageQuestion": "/assets/img/questions/grammar6.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": ["She", "Runs", "Fast", "The"],
                 "correctOption": 1,
                 "score": 100,
@@ -85,7 +85,7 @@
             },
             {
                 "titleQuestion": "Which word is the verb? 'They eat lunch at noon.'",
-                "imageQuestion": "/assets/img/questions/grammar7.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": ["They", "Eat", "Lunch", "Noon"],
                 "correctOption": 1,
                 "score": 100,
@@ -93,7 +93,7 @@
             },
             {
                 "titleQuestion": "What is the action word? 'My dad cooks dinner.'",
-                "imageQuestion": "/assets/img/questions/grammar8.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": ["My dad", "Cooks", "Dinner", "The"],
                 "correctOption": 1,
                 "score": 100,
@@ -101,7 +101,7 @@
             },
             {
                 "titleQuestion": "Choose the verb: 'We jump in the pool.'",
-                "imageQuestion": "/assets/img/questions/grammar9.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": ["We", "Jump", "Pool", "The"],
                 "correctOption": 1,
                 "score": 100,
@@ -109,7 +109,7 @@
             },
             {
                 "titleQuestion": "Find the action word: 'The baby cries loudly.'",
-                "imageQuestion": "/assets/img/questions/grammar10.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": ["The baby", "Cries", "Loudly", "The"],
                 "correctOption": 1,
                 "score": 100,
@@ -136,7 +136,7 @@
         "questions": [
             {
                 "titleQuestion": "Find the adjective: 'The big dog barked loudly.'",
-                "imageQuestion": "/assets/img/questions/grammar8.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": ["Big", "Dog", "Barked", "Loudly"],
                 "correctOption": 0,
                 "score": 100,
@@ -144,7 +144,7 @@
             },
             {
                 "titleQuestion": "Which word is an adjective? 'The happy boy plays in the park.'",
-                "imageQuestion": "/assets/img/questions/grammar12.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": ["Happy", "Boy", "Plays", "Park"],
                 "correctOption": 0,
                 "score": 100,
@@ -152,7 +152,7 @@
             },
             {
                 "titleQuestion": "Choose the adjective: 'She wore a red dress.'",
-                "imageQuestion": "/assets/img/questions/grammar13.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": ["Red", "She", "Dress", "Wore"],
                 "correctOption": 0,
                 "score": 100,
@@ -160,7 +160,7 @@
             },
             {
                 "titleQuestion": "Find the describing word: 'The tall giraffe eats leaves.'",
-                "imageQuestion": "/assets/img/questions/grammar14.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": ["Tall", "Giraffe", "Eats", "Leaves"],
                 "correctOption": 0,
                 "score": 100,
@@ -168,7 +168,7 @@
             },
             {
                 "titleQuestion": "Which word describes something? 'It was a cold night.'",
-                "imageQuestion": "/assets/img/questions/grammar15.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": ["Cold", "It", "Night", "Was"],
                 "correctOption": 0,
                 "score": 100,
@@ -195,7 +195,7 @@
         "questions": [
             {
                 "titleQuestion": "Choose the correct preposition: 'The book is ___ the table.'",
-                "imageQuestion": "/assets/img/questions/grammar16.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": ["On", "In", "Under", "Next to"],
                 "correctOption": 0,
                 "score": 100,
@@ -203,7 +203,7 @@
             },
             {
                 "titleQuestion": "Find the missing preposition: 'She is sitting ___ the chair.'",
-                "imageQuestion": "/assets/img/questions/grammar17.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": ["On", "In", "At", "Over"],
                 "correctOption": 1,
                 "score": 100,
@@ -211,7 +211,7 @@
             },
             {
                 "titleQuestion": "Select the preposition: 'We are going ___ the park.'",
-                "imageQuestion": "/assets/img/questions/grammar18.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": ["To", "For", "At", "With"],
                 "correctOption": 0,
                 "score": 100,
@@ -219,7 +219,7 @@
             },
             {
                 "titleQuestion": "Choose the right word: 'The cat is hiding ___ the couch.'",
-                "imageQuestion": "/assets/img/questions/grammar19.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": ["Under", "On", "Above", "Behind"],
                 "correctOption": 3,
                 "score": 100,
@@ -227,7 +227,7 @@
             },
             {
                 "titleQuestion": "Which preposition fits? 'He arrived ___ time for the meeting.'",
-                "imageQuestion": "/assets/img/questions/grammar20.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": ["On", "In", "At", "Before"],
                 "correctOption": 2,
                 "score": 100,
@@ -254,7 +254,7 @@
         "questions": [
             {
                 "titleQuestion": "What is the plural of 'apple'?",
-                "imageQuestion": "/assets/img/questions/grammar10.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": ["Apple", "Apples", "Appless", "Applees"],
                 "correctOption": 1,
                 "score": 100,
@@ -262,7 +262,7 @@
             },
             {
                 "titleQuestion": "Which is the correct singular form?",
-                "imageQuestion": "/assets/img/questions/grammar11.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": ["Dog", "Dogs", "Doges", "Doggies"],
                 "correctOption": 0,
                 "score": 100,
@@ -270,7 +270,7 @@
             },
             {
                 "titleQuestion": "Which word is plural?",
-                "imageQuestion": "/assets/img/questions/grammar12.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": ["Cat", "Mouse", "Houses", "Child"],
                 "correctOption": 2,
                 "score": 100,
@@ -278,7 +278,7 @@
             },
             {
                 "titleQuestion": "What is the plural of 'baby'?",
-                "imageQuestion": "/assets/img/questions/grammar13.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": ["Babys", "Babyes", "Babies", "Babie"],
                 "correctOption": 2,
                 "score": 100,
@@ -286,7 +286,7 @@
             },
             {
                 "titleQuestion": "Choose the correct singular form.",
-                "imageQuestion": "/assets/img/questions/grammar14.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": ["Men", "Childs", "Woman", "Mice"],
                 "correctOption": 2,
                 "score": 100,
@@ -294,6 +294,401 @@
             }
         ]
     },
+    {
+        "id": "game6",
+        "image": "/assets/img/games/SentenceStructure1.png",
+        "title": "What’s the Correct Order?",
+        "type": "Sentence Ordering",
+        "status": "Active",
+        "difficulty": "Easy",
+        "feedback": "Great job!",
+        "duration": "5 min",
+        "points": "500",
+        "descriptionGame": "Put the words in the correct order to form a proper sentence.",
+        "instructions": [
+            "You will see words in a mixed-up order.",
+            "Drag and drop them to form a complete sentence.",
+            "Each correct sentence earns you points!"
+        ],
+        "questions": [
+            {
+                "titleQuestion": "Rearrange the words: 'playing / is / dog / the'",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "The dog is playing",
+                    "Dog is playing the",
+                    "Is playing dog the",
+                    "Playing dog is the"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Put in order: 'happy / am / I / today'",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "I am happy today",
+                    "Happy I am today",
+                    "Today I am happy",
+                    "Am today happy I"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Rearrange: 'to / like / I / swim'",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "I like to swim",
+                    "To swim like I",
+                    "Like I to swim",
+                    "Swim like to I"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Arrange: 'the / see / I / stars'",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "I see the stars",
+                    "The stars I see",
+                    "Stars I see the",
+                    "See stars I the"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Correct order: 'ball / is / a / red / it'",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "It is a red ball",
+                    "Is it a red ball",
+                    "A red ball it is",
+                    "Red ball it is a"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            }
+        ]
+    },
+    {
+        "id": "game7",
+        "image": "/assets/img/games/SentenceStructure2.png",
+        "title": "Sentence Puzzle",
+        "type": "Sentence Completion",
+        "status": "Active",
+        "difficulty": "Easy",
+        "feedback": "Keep it up!",
+        "duration": "5 min",
+        "points": "500",
+        "descriptionGame": "Complete the sentence by choosing the missing word.",
+        "instructions": [
+            "You will see an incomplete sentence.",
+            "Select the correct word to complete it.",
+            "Each correct answer earns you points!"
+        ],
+        "questions": [
+            {
+                "titleQuestion": "Complete: 'I ____ to school every day.'",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": ["Go", "Play", "Eat", "Jump"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Fill in the blank: 'She ____ a red dress.'",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": ["Wears", "Eats", "Drinks", "Runs"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Pick the right word: 'We ____ soccer on Sundays.'",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": ["Play", "Read", "Cook", "Jump"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Choose the correct word: 'He ____ very happy today.'",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": ["Is", "Are", "Have", "Do"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Fill in the blank: 'They ____ to the park in the afternoon.'",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": ["Go", "Sings", "Drinks", "Reads"],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            }
+        ]
+    },
+    {
+        "id": "game8",
+        "image": "/assets/img/games/SentenceStructure3.png",
+        "title": "Choose the Right Sentence",
+        "type": "Sentence Selection",
+        "status": "Active",
+        "difficulty": "Medium",
+        "feedback": "You're doing great!",
+        "duration": "5 min",
+        "points": "500",
+        "descriptionGame": "Read the sentences and select the one that is correct.",
+        "instructions": [
+            "You will see four sentences.",
+            "Only one sentence is grammatically correct.",
+            "Select the correct sentence to earn points."
+        ],
+        "questions": [
+            {
+                "titleQuestion": "Which sentence is correct?",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "She like to read books.",
+                    "She likes to read books.",
+                    "She liking to read books.",
+                    "She liked to reading books."
+                ],
+                "correctOption": 1,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Pick the correct sentence.",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "We goes to the park every Sunday.",
+                    "We go to the park every Sunday.",
+                    "We going to the park every Sunday.",
+                    "We gone to the park every Sunday."
+                ],
+                "correctOption": 1,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Choose the right sentence.",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "He play soccer in the afternoon.",
+                    "He playing soccer in the afternoon.",
+                    "He plays soccer in the afternoon.",
+                    "He played soccer in the afternoon."
+                ],
+                "correctOption": 2,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Find the correct sentence.",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "I has a pet cat.",
+                    "I have a pet cat.",
+                    "I haves a pet cat.",
+                    "I having a pet cat."
+                ],
+                "correctOption": 1,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Which one is correct?",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "They eats breakfast at 8 AM.",
+                    "They eating breakfast at 8 AM.",
+                    "They eat breakfast at 8 AM.",
+                    "They eaten breakfast at 8 AM."
+                ],
+                "correctOption": 2,
+                "score": 100,
+                "time": 30
+            }
+        ]
+    },
+    {
+        "id": "game9",
+        "image": "/assets/img/games/SentenceStructure4.png",
+        "title": "Fix the Mistake",
+        "type": "Error Correction",
+        "status": "Active",
+        "difficulty": "Medium",
+        "feedback": "You're getting better!",
+        "duration": "5 min",
+        "points": "500",
+        "descriptionGame": "Find and correct the grammar mistake in each sentence.",
+        "instructions": [
+            "You will see a sentence with one mistake.",
+            "Choose the correct option to fix the mistake.",
+            "Earn points for every correct answer!"
+        ],
+        "questions": [
+            {
+                "titleQuestion": "Find the mistake: 'He go to school early.'",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "He goes to school early.",
+                    "He going to school early.",
+                    "He went to school early.",
+                    "He go school early."
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Correct the sentence: 'She have a big dog.'",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "She has a big dog.",
+                    "She haves a big dog.",
+                    "She having a big dog.",
+                    "She had a big dog."
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Choose the right correction: 'They is my friends.'",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "They are my friends.",
+                    "They am my friends.",
+                    "They be my friends.",
+                    "They was my friends."
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Fix the mistake: 'I likes pizza.'",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "I like pizza.",
+                    "I liking pizza.",
+                    "I liked pizza.",
+                    "I likes pizzas."
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Find the correct sentence: 'We was at the park yesterday.'",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "We were at the park yesterday.",
+                    "We is at the park yesterday.",
+                    "We am at the park yesterday.",
+                    "We been at the park yesterday."
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            }
+        ]
+    },
+    {
+        "id": "game10",
+        "image": "/assets/img/games/SentenceStructure5.png",
+        "title": "Who Said It Right?",
+        "type": "Dialogue Correction",
+        "status": "Active",
+        "difficulty": "Medium",
+        "feedback": "Fantastic!",
+        "duration": "5 min",
+        "points": "500",
+        "descriptionGame": "Choose the character who spoke the correct sentence.",
+        "instructions": [
+            "You will see four characters speaking.",
+            "Only one of them is using correct grammar.",
+            "Choose the correct speaker!"
+        ],
+        "questions": [
+            {
+                "titleQuestion": "Who is speaking correctly?",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "Character 1: 'She don't like apples.'",
+                    "Character 2: 'She doesn't like apples.'",
+                    "Character 3: 'She no like apples.'",
+                    "Character 4: 'She isn't like apples.'"
+                ],
+                "correctOption": 1,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Who is right?",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "Character 1: 'We are going to the beach.'",
+                    "Character 2: 'We is going to the beach.'",
+                    "Character 3: 'We am going to the beach.'",
+                    "Character 4: 'We be going to the beach.'"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Which one is correct?",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "Character 1: 'They has a new car.'",
+                    "Character 2: 'They have a new car.'",
+                    "Character 3: 'They haves a new car.'",
+                    "Character 4: 'They having a new car.'"
+                ],
+                "correctOption": 1,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Choose the correct speaker.",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "Character 1: 'He eat breakfast at 7 AM.'",
+                    "Character 2: 'He eats breakfast at 7 AM.'",
+                    "Character 3: 'He eating breakfast at 7 AM.'",
+                    "Character 4: 'He eaten breakfast at 7 AM.'"
+                ],
+                "correctOption": 1,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Who is speaking correctly?",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "Character 1: 'I am going to the store.'",
+                    "Character 2: 'I is going to the store.'",
+                    "Character 3: 'I are going to the store.'",
+                    "Character 4: 'I be going to the store.'"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            }
+        ]
+    },                    
     {
         "id": "game11",
         "image": "/assets/img/games/SentenceStructure1.png",
@@ -313,7 +708,7 @@
         "questions": [
             {
                 "titleQuestion": "Rearrange the words: 'is / The / black / cat'",
-                "imageQuestion": "/assets/img/questions/sentence1.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": [
                     "The cat black is.",
                     "The black cat is.",
@@ -326,7 +721,7 @@
             },
             {
                 "titleQuestion": "Rearrange the words: 'go / school / I / to'",
-                "imageQuestion": "/assets/img/questions/sentence2.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": [
                     "Go school I to.",
                     "I go to school.",
@@ -339,7 +734,7 @@
             },
             {
                 "titleQuestion": "Rearrange the words: 'like / pizza / I'",
-                "imageQuestion": "/assets/img/questions/sentence3.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": [
                     "I pizza like.",
                     "Pizza like I.",
@@ -352,7 +747,7 @@
             },
             {
                 "titleQuestion": "Rearrange the words: 'She / very / is / happy'",
-                "imageQuestion": "/assets/img/questions/sentence4.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": [
                     "Happy she is very.",
                     "She very happy is.",
@@ -365,7 +760,7 @@
             },
             {
                 "titleQuestion": "Rearrange the words: 'run / fast / dogs'",
-                "imageQuestion": "/assets/img/questions/sentence5.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": [
                     "Dogs run fast.",
                     "Fast dogs run.",
@@ -397,7 +792,7 @@
         "questions": [
             {
                 "titleQuestion": "Identify the correct sentence: 'He go to school every day.'",
-                "imageQuestion": "/assets/img/questions/error1.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": [
                     "He go to school every day.",
                     "He goes to school every day.",
@@ -410,7 +805,7 @@
             },
             {
                 "titleQuestion": "Choose the correct sentence: 'She play the piano beautifully.'",
-                "imageQuestion": "/assets/img/questions/error2.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": [
                     "She play the piano beautifully.",
                     "She playing the piano beautifully.",
@@ -423,7 +818,7 @@
             },
             {
                 "titleQuestion": "Find the correct sentence: 'We is going home now.'",
-                "imageQuestion": "/assets/img/questions/error3.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": [
                     "We is going home now.",
                     "We are going home now.",
@@ -436,7 +831,7 @@
             },
             {
                 "titleQuestion": "Choose the correct version: 'They has a big house.'",
-                "imageQuestion": "/assets/img/questions/error4.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": [
                     "They has a big house.",
                     "They have a big house.",
@@ -449,7 +844,7 @@
             },
             {
                 "titleQuestion": "Find the correct sentence: 'I likes to read books.'",
-                "imageQuestion": "/assets/img/questions/error5.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": [
                     "I likes to read books.",
                     "I like to read books.",
@@ -481,7 +876,7 @@
         "questions": [
             {
                 "titleQuestion": "What is the subject and verb in the sentence: 'The dog runs fast.'?",
-                "imageQuestion": "/assets/img/questions/subject1.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": [
                     "The dog - runs",
                     "The dog - fast",
@@ -494,7 +889,7 @@
             },
             {
                 "titleQuestion": "What is the subject and verb in the sentence: 'She plays the piano beautifully.'?",
-                "imageQuestion": "/assets/img/questions/subject2.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": [
                     "She - beautifully",
                     "Plays - piano",
@@ -507,7 +902,7 @@
             },
             {
                 "titleQuestion": "What is the subject and verb in the sentence: 'They are eating lunch.'?",
-                "imageQuestion": "/assets/img/questions/subject3.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": [
                     "They - eating",
                     "Are - lunch",
@@ -520,7 +915,7 @@
             },
             {
                 "titleQuestion": "What is the subject and verb in the sentence: 'The birds sing songs.'?",
-                "imageQuestion": "/assets/img/questions/subject4.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": [
                     "Birds - sing",
                     "The - birds",
@@ -533,7 +928,7 @@
             },
             {
                 "titleQuestion": "What is the subject and verb in the sentence: 'John likes to read books.'?",
-                "imageQuestion": "/assets/img/questions/subject5.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": [
                     "John - read",
                     "Likes - books",
@@ -565,7 +960,7 @@
         "questions": [
             {
                 "titleQuestion": "Match the subject with the correct predicate: 'I' - 'play basketball.'",
-                "imageQuestion": "/assets/img/questions/match1.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": [
                     "I - play basketball",
                     "She - goes to school",
@@ -578,7 +973,7 @@
             },
             {
                 "titleQuestion": "Match the subject with the correct predicate: 'He' - 'writes stories.'",
-                "imageQuestion": "/assets/img/questions/match2.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": [
                     "He - writes stories",
                     "They - play games",
@@ -591,7 +986,7 @@
             },
             {
                 "titleQuestion": "Match the subject with the correct predicate: 'The cat' - 'sleeps on the bed.'",
-                "imageQuestion": "/assets/img/questions/match3.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": [
                     "The cat - sleeps on the bed",
                     "I - run fast",
@@ -604,7 +999,7 @@
             },
             {
                 "titleQuestion": "Match the subject with the correct predicate: 'They' - 'eat lunch.'",
-                "imageQuestion": "/assets/img/questions/match4.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": [
                     "They - eat lunch",
                     "We - draw together",
@@ -617,7 +1012,7 @@
             },
             {
                 "titleQuestion": "Match the subject with the correct predicate: 'John' - 'plays the guitar.'",
-                "imageQuestion": "/assets/img/questions/match5.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": [
                     "John - plays the guitar",
                     "We - play tennis",
@@ -649,7 +1044,7 @@
         "questions": [
             {
                 "titleQuestion": "Fill in the blank: 'I ______ to the park.'",
-                "imageQuestion": "/assets/img/questions/blank1.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": [
                     "go",
                     "went",
@@ -662,7 +1057,7 @@
             },
             {
                 "titleQuestion": "Fill in the blank: 'She ______ her homework.'",
-                "imageQuestion": "/assets/img/questions/blank2.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": [
                     "do",
                     "doing",
@@ -675,7 +1070,7 @@
             },
             {
                 "titleQuestion": "Fill in the blank: 'They ______ to school by bus.'",
-                "imageQuestion": "/assets/img/questions/blank3.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": [
                     "go",
                     "going",
@@ -688,7 +1083,7 @@
             },
             {
                 "titleQuestion": "Fill in the blank: 'He ______ in the garden.'",
-                "imageQuestion": "/assets/img/questions/blank4.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": [
                     "is working",
                     "working",
@@ -701,7 +1096,7 @@
             },
             {
                 "titleQuestion": "Fill in the blank: 'We ______ a picnic yesterday.'",
-                "imageQuestion": "/assets/img/questions/blank5.png",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
                 "options": [
                     "have",
                     "had",
@@ -713,5 +1108,425 @@
                 "time": 30
             }
         ]
-    }   
+    },
+    {
+        "id": "game16",
+        "image": "/assets/img/games/PhonicsSounds1.png",
+        "title": "Match the Sound with the Word",
+        "type": "Matching",
+        "status": "Active",
+        "difficulty": "Easy",
+        "feedback": "Great Job!",
+        "duration": "5 min",
+        "points": "500",
+        "descriptionGame": "Match the correct word to its phonetic sound.",
+        "instructions": [
+            "Listen to the sound carefully.",
+            "Match the sound with the correct word.",
+            "Earn points for every correct match!"
+        ],
+        "questions": [
+            {
+                "titleQuestion": "Which word matches the sound 'bl'?",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "Blue",
+                    "Dog",
+                    "Cat",
+                    "Ball"
+                ],
+                "correctOption": 3,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Which word matches the sound 'br'?",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "Bread",
+                    "Car",
+                    "Tree",
+                    "Bird"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Which word matches the sound 'cl'?",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "Clock",
+                    "Boat",
+                    "Fish",
+                    "Train"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Which word matches the sound 'cr'?",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "Crown",
+                    "Car",
+                    "Cat",
+                    "Table"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Which word matches the sound 'fl'?",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "Flower",
+                    "Fan",
+                    "House",
+                    "Chair"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            }
+        ]
+    },
+    {
+        "id": "game17",
+        "image": "/assets/img/games/PhonicsSounds2.png",
+        "title": "Phonics Sound Identification",
+        "type": "Sound Recognition",
+        "status": "Active",
+        "difficulty": "Medium",
+        "feedback": "Well Done!",
+        "duration": "5 min",
+        "points": "500",
+        "descriptionGame": "Identify the correct phonics sound from the word.",
+        "instructions": [
+            "Listen to the word.",
+            "Choose the correct phonics sound that matches the word.",
+            "Earn points for each correct choice!"
+        ],
+        "questions": [
+            {
+                "titleQuestion": "What is the phonics sound for the word 'tree'?",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "tr",
+                    "bl",
+                    "fl",
+                    "gr"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "What is the phonics sound for the word 'green'?",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "gr",
+                    "pl",
+                    "sn",
+                    "sw"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "What is the phonics sound for the word 'snow'?",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "sn",
+                    "st",
+                    "sm",
+                    "sc"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "What is the phonics sound for the word 'train'?",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "tr",
+                    "sw",
+                    "bl",
+                    "gr"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "What is the phonics sound for the word 'smile'?",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "sm",
+                    "pl",
+                    "sc",
+                    "sw"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            }
+        ]
+    },
+    {
+        "id": "game18",
+        "image": "/assets/img/games/PhonicsSounds3.png",
+        "title": "Phonics Sound Challenge",
+        "type": "Multiple Choice",
+        "status": "Active",
+        "difficulty": "Medium",
+        "feedback": "Awesome!",
+        "duration": "5 min",
+        "points": "500",
+        "descriptionGame": "Test your phonics knowledge by choosing the correct sound for each word.",
+        "instructions": [
+            "Read the word carefully.",
+            "Choose the correct phonics sound that fits the word.",
+            "Earn points for each correct answer!"
+        ],
+        "questions": [
+            {
+                "titleQuestion": "Which phonics sound is in the word 'black'?",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "bl",
+                    "tr",
+                    "cr",
+                    "sw"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Which phonics sound is in the word 'frog'?",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "fr",
+                    "pl",
+                    "gr",
+                    "sl"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Which phonics sound is in the word 'plate'?",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "pl",
+                    "sm",
+                    "sc",
+                    "gr"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Which phonics sound is in the word 'star'?",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "st",
+                    "sw",
+                    "sn",
+                    "sc"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Which phonics sound is in the word 'fish'?",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "fl",
+                    "sh",
+                    "pl",
+                    "sm"
+                ],
+                "correctOption": 1,
+                "score": 100,
+                "time": 30
+            }
+        ]
+    },
+    {
+        "id": "game19",
+        "image": "/assets/img/games/PhonicsSounds4.png",
+        "title": "Sound Sorting",
+        "type": "Sorting",
+        "status": "Active",
+        "difficulty": "Medium",
+        "feedback": "Keep Going!",
+        "duration": "5 min",
+        "points": "500",
+        "descriptionGame": "Sort the words by their phonics sounds.",
+        "instructions": [
+            "Listen to the sound.",
+            "Sort the words into the correct sound group.",
+            "Earn points for each correct sort!"
+        ],
+        "questions": [
+            {
+                "titleQuestion": "Sort the words by their phonics sound: 'apple', 'ball', 'cat', 'dog'",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "bl - apple, ball",
+                    "tr - dog, cat",
+                    "bl - ball, apple",
+                    "sm - cat, dog"
+                ],
+                "correctOption": 2,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Sort the words by their phonics sound: 'fish', 'star', 'flower', 'smile'",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "fl - fish, flower",
+                    "sm - smile, star",
+                    "st - star, flower",
+                    "gr - fish, smile"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Sort the words by their phonics sound: 'train', 'frog', 'clock', 'tree'",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "tr - train, tree",
+                    "fr - frog, clock",
+                    "tr - frog, train",
+                    "fl - clock, tree"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Sort the words by their phonics sound: 'blue', 'cat', 'smile', 'car'",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "bl - blue, car",
+                    "sm - smile, cat",
+                    "fl - blue, smile",
+                    "pl - car, cat"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Sort the words by their phonics sound: 'bird', 'fish', 'train', 'snow'",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "gr - bird, fish",
+                    "tr - train",
+                    "sn - snow",
+                    "fl - fish"
+                ],
+                "correctOption": 2,
+                "score": 100,
+                "time": 30
+            }
+        ]
+    },
+    {
+        "id": "game20",
+        "image": "/assets/img/games/PhonicsSounds5.png",
+        "title": "Phonics Sound Practice",
+        "type": "Audio Quiz",
+        "status": "Active",
+        "difficulty": "Medium",
+        "feedback": "Fantastic!",
+        "duration": "5 min",
+        "points": "500",
+        "descriptionGame": "Practice identifying the phonics sound of a word based on an audio clip.",
+        "instructions": [
+            "Listen to the audio clip.",
+            "Choose the correct phonics sound for the word.",
+            "Earn points for each correct answer!"
+        ],
+        "questions": [
+            {
+                "titleQuestion": "Listen to the sound and choose the word: /tr/",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "Train",
+                    "Cat",
+                    "Tree",
+                    "Star"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Listen to the sound and choose the word: /gr/",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "Green",
+                    "Smile",
+                    "Frog",
+                    "Snow"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Listen to the sound and choose the word: /pl/",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "Plum",
+                    "Fish",
+                    "Star",
+                    "Flower"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Listen to the sound and choose the word: /sm/",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "Smile",
+                    "Star",
+                    "Boat",
+                    "Train"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            },
+            {
+                "titleQuestion": "Listen to the sound and choose the word: /sh/",
+                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "options": [
+                    "Shirt",
+                    "Frog",
+                    "Snow",
+                    "Bird"
+                ],
+                "correctOption": 0,
+                "score": 100,
+                "time": 30
+            }
+        ]
+    }
 ]
