@@ -4,18 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/assets/img/favicon/IcoLogo.ico" />
+    <link rel="shortcut icon" href="/assets/img/favicon/IcoLogo.ico">
     <link rel="stylesheet" href="css/style.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500&family=Comic+Neue:wght@400;700&family=Fredoka:wght@400;500&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500&family=Comic+Neue:wght@400;700&family=Fredoka:wght@400;500&display=swap" rel="stylesheet">
     <title>CodeThink</title>
 </head>
 
 <body>
-    <nav class="navbar">
+    <!-- Enlace para saltar al contenido principal -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <nav class="navbar" role="navigation" aria-label="Main Navigation">
         <div class="logo">
-            <img src="assets/img/Logo-Principal.png" alt="Code Think" class="logo-img">
+            <a href="/index.html">
+                <img src="assets/img/Logo-Principal.png" alt="CodeThink Home" class="logo-img">
+            </a>
         </div>
         <ul class="nav-links">
             <li><a href="/index.html" class="nav-item">HOME</a></li>
@@ -30,37 +33,37 @@
     <header class="hero-section">
         <div class="hero-content">
             <h1>Let’s learn English by playing!</h1>
-            <p>Welcome to CodeThink, a place where learning English is an exciting adventure. Here you can play games
-                while
-                discovering new words and improving your skills.</p>
+            <p>Welcome to CodeThink, a place where learning English is an exciting adventure. Play games while discovering new words and improving your skills.</p>
             <br>
-            <a href="/pages/dashboard.html" class="btn start-btn">START</a>
+            <a href="/pages/dashboard.html" class="btn start-btn" aria-label="Start playing games">START</a>
         </div>
         <div class="hero-image">
-            <img src="assets/img/VISUAL HOME.png" alt="Learning English">
+            <img src="assets/img/VISUAL HOME.png" alt="Illustration of children playing while learning English">
         </div>
     </header>
 
-    <section class="features-section">
-        <h2>Discover the world of English in a fun way.</h2>
-        <div class="features">
-            <div class="feature-card">
-                <img src="assets/img/Imagen_Carta1.png" alt="Expand your words">
-                <h3>Expand your words!</h3>
-                <p>Learn new words every day and use them like an expert.</p>
+    <main id="main-content">
+        <section class="features-section">
+            <h2>Discover the world of English in a fun way.</h2>
+            <div class="features">
+                <div class="feature-card" tabindex="0">
+                    <img src="assets/img/Imagen_Carta1.png" alt="Illustration of a vocabulary book">
+                    <h3>Expand your words!</h3>
+                    <p>Learn new words every day and use them like an expert.</p>
+                </div>
+                <div class="feature-card" tabindex="0">
+                    <img src="assets/img/Imagen_Carta2.png" alt="Illustration of a happy child playing">
+                    <h3>Learning is fun!</h3>
+                    <p>Discover games that make learning English exciting.</p>
+                </div>
+                <div class="feature-card" tabindex="0">
+                    <img src="assets/img/Imagen_Carta3.png" alt="Illustration of grammar rules and exercises">
+                    <h3>Master the rules</h3>
+                    <p>Learn basic structures and use them in correct sentences.</p>
+                </div>
             </div>
-            <div class="feature-card">
-                <img src="assets/img/Imagen_Carta2.png" alt="Learning is fun">
-                <h3>Learning is fun!</h3>
-                <p>Discover games that make learning English exciting.</p>
-            </div>
-            <div class="feature-card">
-                <img src="assets/img/Imagen_Carta3.png" alt="Master the rules">
-                <h3>Master the rules</h3>
-                <p>Learn basic structures and use them in correct sentences.</p>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
 </body>
 
 </html>
