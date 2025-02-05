@@ -1,7 +1,13 @@
-//import { updateUserScore } from "/DB/datos/updateUserData.js";
-
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-app.js";
 import { getFirestore, doc, getDoc, updateDoc } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-firestore.js";
+
+// Sonidos
+const sounds = {
+    start: new Audio("/assets/sounds/background-music.mp3"),
+    correct: new Audio("/assets/sounds/correct.mp3"),
+    wrong: new Audio("/assets/sounds/wrong.mp3"),
+    end: new Audio("/assets/sounds/fireworks.mp3")
+};
 
 // Configuración de Firebase
 const firebaseConfig = {
@@ -30,21 +36,15 @@ async function updateUserScore(email, newPoints) {
     let updatedPoints = userData.points + newPoints;
     let updatedLevel = userData.level;
 
-    // Definir lógica para subir de nivel
     if (updatedLevel <= 10 && updatedPoints >= 1000) {
-        updatedLevel = Math.min(50, updatedLevel + Math.floor(updatedPoints / 1000)); // Máximo 50 niveles
-        updatedPoints = updatedPoints % 1000; // Restante de los puntos
+        updatedLevel = Math.min(50, updatedLevel + Math.floor(updatedPoints / 1000));
+        updatedPoints = updatedPoints % 1000;
     } else if (updatedLevel > 10 && updatedPoints >= 2000) {
         updatedLevel = Math.min(50, updatedLevel + Math.floor(updatedPoints / 2000));
         updatedPoints = updatedPoints % 2000;
     }
 
-    // Actualizar en Firestore
-    await updateDoc(userRef, {
-        points: updatedPoints,
-        level: updatedLevel
-    });
-
+    await updateDoc(userRef, { points: updatedPoints, level: updatedLevel });
     console.log(`User updated: Level ${updatedLevel}, Points ${updatedPoints}`);
 }
 
@@ -69,7 +69,6 @@ document.addEventListener("DOMContentLoaded", () => {
             let currentQuestionIndex = 0;
             const totalQuestions = game.questions.length;
 
-            // Elementos de la página
             const titleQuestion = document.getElementById("titleQuestion");
             const imageQuestion = document.getElementById("imageQuestion");
             const options = document.querySelectorAll(".option");
@@ -79,8 +78,12 @@ document.addEventListener("DOMContentLoaded", () => {
             const puntuacion = document.getElementById("puntuation");
 
             let score = 0;
+            let correctAnswers = 0;
             let timeLeft;
             let timer;
+
+            // Iniciar sonido del juego
+            sounds.start.play();
 
             function loadQuestion(index) {
                 const question = game.questions[index];
@@ -100,6 +103,10 @@ document.addEventListener("DOMContentLoaded", () => {
             function checkAnswer(selectedIndex, correctIndex) {
                 if (selectedIndex === correctIndex) {
                     score += game.questions[currentQuestionIndex].score;
+                    correctAnswers++;
+                    sounds.correct.play();
+                } else {
+                    sounds.wrong.play();
                 }
 
                 currentQuestionIndex++;
@@ -125,29 +132,76 @@ document.addEventListener("DOMContentLoaded", () => {
                         progressBar.style.width = `${(timeLeft / game.questions[currentQuestionIndex].time) * 100}%`;
                     } else {
                         clearInterval(timer);
-                        checkAnswer(-1, game.questions[currentQuestionIndex].correctOption); // Pasar a la siguiente pregunta si se acaba el tiempo
+                        checkAnswer(-1, game.questions[currentQuestionIndex].correctOption);
                     }
                 }, 1000);
             }
 
             async function endGame() {
-                alert(`Game Over! Total Score: ${score}`);
+                let finalSound;
 
-                // Obtener datos del usuario desde localStorage
+                if (correctAnswers === totalQuestions) {
+                    finalSound = sounds.end;  // Fuegos artificiales
+                } else if (correctAnswers / totalQuestions >= 0.7) {
+                    finalSound = new Audio("/assets/sounds/celebration.mp3"); // Celebración
+                } else if (correctAnswers / totalQuestions >= 0.4) {
+                    finalSound = new Audio("/assets/sounds/motivation.mp3"); // Motivación
+                } else {
+                    finalSound = new Audio("/assets/sounds/try-again.mp3"); // Sonido de mejora
+                }
+
+                finalSound.play();
+
+                const phrases = [
+                    "You can do better!",   // 0-20% respuestas correctas
+                    "Keep practicing!",     // 21-40% respuestas correctas
+                    "Nice effort!",         // 41-60% respuestas correctas
+                    "Great job!",           // 61-80% respuestas correctas
+                    "Excellent work!",      // 81-99% respuestas correctas
+                    "Perfect! Amazing!"     // 100% respuestas correctas
+                ];
+                const phraseIndex = Math.min(phrases.length - 1, Math.floor((correctAnswers / totalQuestions) * phrases.length));
+                const finalPhrase = phrases[phraseIndex] || "Well done!";
+
+                const popup = document.createElement("div");
+                popup.innerHTML = `
+                    <div id="resultPopup" class="popup">
+                        <h2>Game Over!</h2>
+                        <p>Total Score: ${score}</p>
+                        <p>${finalPhrase}</p>
+                        <button id="dashboardBtn">Go to Dashboard</button>
+                    </div>
+                `;
+
+                document.body.appendChild(popup);
+
+                // Si respondió bien la mayoría, mostrar fuegos artificiales
+                if (correctAnswers == totalQuestions >= 0.7) {
+                    const fireworks = document.createElement("gif");
+                    fireworks.src = "/images/fireworks.gif";
+                    fireworks.classList.add("fireworks");
+                    popup.appendChild(fireworks);
+
+                    setTimeout(() => {
+                        fireworks.remove();
+                    }, 8000);
+                }
+
+                document.getElementById("dashboardBtn").addEventListener("click", () => {
+                    window.location.href = "/pages/dashboard.html";
+                });
+
+                // Guardar puntaje en la base de datos
                 const userData = JSON.parse(localStorage.getItem("userData"));
                 if (userData && userData.email) {
                     await updateUserScore(userData.email, score);
                 }
-
-                window.location.href = "/pages/vocabulary.html";
             }
 
-            // Cargar la primera pregunta
             loadQuestion(0);
         })
         .catch(error => console.error("Error loading game data:", error));
 
-    // Botón de regreso
     document.getElementById("back-button").addEventListener("click", () => {
         window.history.back();
     });

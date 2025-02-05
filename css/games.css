@@ -763,3 +763,106 @@ button:hover {
 .gridView .cell-label {
   opacity: 0.6;
 }
+
+/*GAMES ACTIONS*/
+/* Popup */
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fdf6e3;
+  padding: 30px;
+  width: 350px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.popup h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.popup h1 {
+  font-size: 40px;
+  color: #2a9d8f;
+  margin: 0;
+}
+
+.popup p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Barras de progreso */
+.progress-bar {
+  width: 100%;
+  background: #e0e0e0;
+  border-radius: 10px;
+  margin: 10px 0;
+  height: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+#speed-progress,
+#level-progress {
+  height: 100%;
+  border-radius: 10px;
+  width: 0%;
+  transition: width 1.5s ease-in-out;
+}
+
+#speed-progress {
+  background: #e76f51;
+}
+
+#level-progress {
+  background: #2a9d8f;
+}
+
+/* Botón */
+button {
+  background-color: #264653;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #1d3557;
+}
+
+/* Animación de fuegos artificiales */
+.fireworks {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  background: url('/assets/img/fireworks.gif') no-repeat center;
+  background-size: contain;
+  transform: translate(-50%, -50%);
+  animation: fadeInOut 3s ease-in-out;
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translate(-50%, -55%); }
+  to { opacity: 1; transform: translate(-50%, -50%); }
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: scale(0.5); }
+  50% { opacity: 1; transform: scale(1.2); }
+  100% { opacity: 0; transform: scale(0.8); }
+}

@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
     }
 
-    fetch("/DB/pruebas/games.json")
+    fetch("/DB/pruebas/grammar/gamesGrammar.json")
         .then(response => response.json())
         .then(games => {
             const game = games.find(g => g.id === gameId);
