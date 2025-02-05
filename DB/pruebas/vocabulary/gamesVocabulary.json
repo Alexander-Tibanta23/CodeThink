@@ -195,7 +195,7 @@
         "questions": [
             {
                 "titleQuestion": "I ____ to school every day.",
-                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "imageQuestion": "/assets/img/games/vocabulary/game/question/thinking.png",
                 "options": ["Run", "Walk", "Swim", "Jump"],
                 "correctOption": 1,
                 "score": 100,
@@ -203,7 +203,7 @@
             },
             {
                 "titleQuestion": "She loves to ____ in the park.",
-                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "imageQuestion": "/assets/img/games/vocabulary/game/question/thinking.png",
                 "options": ["Dance", "Sleep", "Eat", "Read"],
                 "correctOption": 0,
                 "score": 100,
@@ -211,7 +211,7 @@
             },
             {
                 "titleQuestion": "We ____ books in the library.",
-                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "imageQuestion": "/assets/img/games/vocabulary/game/question/thinking.png",
                 "options": ["Eat", "Drink", "Read", "Cook"],
                 "correctOption": 2,
                 "score": 100,
@@ -219,7 +219,7 @@
             },
             {
                 "titleQuestion": "He ____ his homework before dinner.",
-                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "imageQuestion": "/assets/img/games/vocabulary/game/question/thinking.png",
                 "options": ["Writes", "Cooks", "Runs", "Jumps"],
                 "correctOption": 0,
                 "score": 100,
@@ -227,7 +227,7 @@
             },
             {
                 "titleQuestion": "They ____ songs at the school concert.",
-                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "imageQuestion": "/assets/img/games/vocabulary/game/question/thinking.png",
                 "options": ["Sing", "Dance", "Read", "Sleep"],
                 "correctOption": 0,
                 "score": 100,
@@ -313,7 +313,7 @@
         "questions": [
             {
                 "titleQuestion": "I like to eat ____ for breakfast.",
-                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "imageQuestion": "/assets/img/games/vocabulary/game/question/egg.png",
                 "options": ["Pizza", "Eggs", "Soup", "Ice Cream"],
                 "correctOption": 1,
                 "score": 100,
@@ -321,7 +321,7 @@
             },
             {
                 "titleQuestion": "She is drinking ____.",
-                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "imageQuestion": "/assets/img/games/vocabulary/game/question/juice.png",
                 "options": ["Juice", "Rice", "Salad", "Cake"],
                 "correctOption": 0,
                 "score": 100,
@@ -329,7 +329,7 @@
             },
             {
                 "titleQuestion": "I love eating ____ on a hot day.",
-                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "imageQuestion": "/assets/img/games/vocabulary/game/question/icecream.png",
                 "options": ["Soup", "Ice Cream", "Bread", "Pasta"],
                 "correctOption": 1,
                 "score": 100,
@@ -337,7 +337,7 @@
             },
             {
                 "titleQuestion": "For lunch, we eat ____ and vegetables.",
-                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "imageQuestion": "/assets/img/games/vocabulary/game/question/rice.png",
                 "options": ["Rice", "Juice", "Milk", "Cereal"],
                 "correctOption": 0,
                 "score": 100,
@@ -345,7 +345,7 @@
             },
             {
                 "titleQuestion": "A birthday cake is usually sweet and made of ____.",
-                "imageQuestion": "/assets/img/games/LineaDivisora2.png",
+                "imageQuestion": "/assets/img/games/vocabulary/game/question/chocolate.png",
                 "options": ["Rice", "Chocolate", "Fish", "Carrots"],
                 "correctOption": 1,
                 "score": 100,

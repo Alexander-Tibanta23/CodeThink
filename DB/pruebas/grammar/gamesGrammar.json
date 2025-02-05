@@ -237,7 +237,7 @@
     },    
     {
         "id": "game5",
-        "image": "/assets/img/games/GrammarBasics5.png",
+        "image": "/assets/img/games/grammar/game/Game5.jpeg",
         "title": "Plurals and Singulars",
         "type": "Multiple Choice",
         "status": "Active",
@@ -296,7 +296,7 @@
     },
     {
         "id": "game6",
-        "image": "/assets/img/games/SentenceStructure1.png",
+        "image": "/assets/img/games/grammar/game/Game6.jpeg",
         "title": "What’s the Correct Order?",
         "type": "Sentence Ordering",
         "status": "Active",
@@ -380,7 +380,7 @@
     },
     {
         "id": "game7",
-        "image": "/assets/img/games/SentenceStructure2.png",
+        "image": "/assets/img/games/grammar/game/Game7.jpeg",
         "title": "Sentence Puzzle",
         "type": "Sentence Completion",
         "status": "Active",
@@ -439,7 +439,7 @@
     },
     {
         "id": "game8",
-        "image": "/assets/img/games/SentenceStructure3.png",
+        "image": "/assets/img/games/grammar/game/Game8.jpeg",
         "title": "Choose the Right Sentence",
         "type": "Sentence Selection",
         "status": "Active",
@@ -523,7 +523,7 @@
     },
     {
         "id": "game9",
-        "image": "/assets/img/games/SentenceStructure4.png",
+        "image": "/assets/img/games/grammar/game/Game9.jpeg",
         "title": "Fix the Mistake",
         "type": "Error Correction",
         "status": "Active",
@@ -607,7 +607,7 @@
     },
     {
         "id": "game10",
-        "image": "/assets/img/games/SentenceStructure5.png",
+        "image": "/assets/img/games/grammar/game/Game10.jpeg",
         "title": "Who Said It Right?",
         "type": "Dialogue Correction",
         "status": "Active",
@@ -691,7 +691,7 @@
     },                    
     {
         "id": "game11",
-        "image": "/assets/img/games/SentenceStructure1.png",
+        "image": "/assets/img/games/grammar/game/Game11.jpeg",
         "title": "Build the Sentence",
         "type": "Word Order",
         "status": "Active",
@@ -775,7 +775,7 @@
     },
     {
         "id": "game12",
-        "image": "/assets/img/games/SentenceStructure2.png",
+        "image": "/assets/img/games/grammar/game/Game12.jpeg",
         "title": "Fix the Mistake",
         "type": "Error Correction",
         "status": "Active",
@@ -859,7 +859,7 @@
     },
     {
         "id": "game13",
-        "image": "/assets/img/games/SentenceStructure3.png",
+        "image": "/assets/img/games/grammar/game/Game13.jpeg",
         "title": "Identify the Subject and Verb",
         "type": "Multiple Choice",
         "status": "Active",
@@ -943,7 +943,7 @@
     },
     {
         "id": "game14",
-        "image": "/assets/img/games/SentenceStructure4.png",
+        "image": "/assets/img/games/grammar/game/Game14.jpeg",
         "title": "Match the Subject and Predicate",
         "type": "Matching",
         "status": "Active",
@@ -1027,7 +1027,7 @@
     },
     {
         "id": "game15",
-        "image": "/assets/img/games/SentenceStructure5.png",
+        "image": "/assets/img/games/grammar/game/Game15.jpeg",
         "title": "Fill in the Blanks",
         "type": "Fill in the Blanks",
         "status": "Active",
@@ -1111,7 +1111,7 @@
     },
     {
         "id": "game16",
-        "image": "/assets/img/games/PhonicsSounds1.png",
+        "image": "/assets/img/games/grammar/game/Game16.jpeg",
         "title": "Match the Sound with the Word",
         "type": "Matching",
         "status": "Active",
@@ -1195,7 +1195,7 @@
     },
     {
         "id": "game17",
-        "image": "/assets/img/games/PhonicsSounds2.png",
+        "image": "/assets/img/games/grammar/game/Game17.jpeg",
         "title": "Phonics Sound Identification",
         "type": "Sound Recognition",
         "status": "Active",
@@ -1279,7 +1279,7 @@
     },
     {
         "id": "game18",
-        "image": "/assets/img/games/PhonicsSounds3.png",
+        "image": "/assets/img/games/grammar/game/Game18.jpeg",
         "title": "Phonics Sound Challenge",
         "type": "Multiple Choice",
         "status": "Active",
@@ -1363,7 +1363,7 @@
     },
     {
         "id": "game19",
-        "image": "/assets/img/games/PhonicsSounds4.png",
+        "image": "/assets/img/games/grammar/game/Game19.jpeg",
         "title": "Sound Sorting",
         "type": "Sorting",
         "status": "Active",
@@ -1447,7 +1447,7 @@
     },
     {
         "id": "game20",
-        "image": "/assets/img/games/PhonicsSounds5.png",
+        "image": "/assets/img/games/grammar/game/Game20.jpeg",
         "title": "Phonics Sound Practice",
         "type": "Audio Quiz",
         "status": "Active",
