@@ -183,8 +183,8 @@ input[type="password"]:focus {
   display: block;
 }
 
-.login-btn:hover {
-  background-color: #005f73;
+.login-btn:focus, .login-btn:hover {
+  background-color: #ff6600;
 }
 
 .separator {
@@ -227,4 +227,34 @@ input[type="password"]:focus {
 .social-icons img {
   width: 30px;
   cursor: pointer;
+}
+
+/* Íconos sociales accesibles */
+.social-icons a {
+  display: inline-block;
+  margin: 5px;
+}
+
+/* Botón para saltar al contenido principal */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 10px;
+  background: #000;
+  color: #fff;
+  padding: 8px 12px;
+  text-decoration: none;
+  z-index: 100;
+  transition: top 0.3s;
+}
+
+.skip-link:focus {
+  top: 10px;
+}
+
+/* Resaltar elementos navegables con teclado */
+input:focus-visible, button:focus-visible, .social-icons a:focus-visible {
+  outline: 3px solid #FFD700; /* Amarillo dorado */
+  outline-offset: 3px;
+  border-radius: 5px;
 }

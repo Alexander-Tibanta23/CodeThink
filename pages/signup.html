@@ -4,74 +4,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/assets/img/favicon/IcoLogo.ico" />
     <title>CodeThink - Sign Up</title>
-    <link rel="shortcut icon" href="/assets/img/Logo-Pestaña.ico" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="/assets/img/favicon/IcoLogo.ico">
     <link rel="stylesheet" href="/css/signup.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
+    <!-- Botón para saltar directamente al contenido principal (accesibilidad) -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
     <header class="header">
         <div class="logo">
-            <a href="/index.html"><img src="/assets/img/Logo-Principal.png" alt="CodeThink Logo"></a>
+            <a href="/index.html">
+                <img src="/assets/img/Logo-Principal.png" alt="CodeThink Home">
+            </a>
         </div>
     </header>
 
-    <div class="section-container">
+    <main class="section-container" id="main-content">
 
-        <div class="login-section">
+        <section class="login-section">
             <div class="login-container">
                 <h2>Create your <span class="highlight">CODETHINK</span> Account</h2>
+
                 <form>
                     <div class="form-group name-group">
                         <div>
                             <label for="first-name">First Name</label>
-                            <input type="text" id="first-name" placeholder="Enter your first name">
+                            <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required tabindex="0">
                         </div>
                         <div>
                             <label for="last-name">Last Name</label>
-                            <input type="text" id="last-name" placeholder="Enter your last name">
+                            <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required tabindex="0">
                         </div>
                     </div>
+
                     <div class="form-group">
                         <label for="email">Email</label>
                         <input type="text" id="email" placeholder="Enter your email">
                     </div>
+
                     <div class="form-group">
                         <label for="password">Password</label>
                         <div class="password-container">
-                            <input type="password" id="password" placeholder="Enter your password">
+                            <input type="password" id="password" name="password" placeholder="Enter your password" required tabindex="0">
                         </div>
                     </div>
+
                     <div class="form-group">
                         <label for="repeat-password">Repeat Password</label>
                         <div class="password-container">
-                            <input type="password" id="repeat-password" placeholder="Repeat your password">
+                            <input type="password" id="repeat-password" name="repeat-password" placeholder="Repeat your password" required tabindex="0">
                         </div>
                     </div>
-                    <button type="submit" class="login-btn">SIGN UP</button>
+
+                    <button type="submit" class="login-btn" tabindex="0">SIGN UP</button>
+
                     <div class="separator">
                         <span>or register with</span>
                     </div>
+
                     <div class="social-icons">
-                        <a href="#"><img src="/assets/img/facebook.png" alt="Facebook"></a>
-                        <a href="#"><img src="/assets/img/google.png" alt="Google"></a>
+                        <a href="#" aria-label="Register with Facebook" tabindex="0">
+                            <img src="/assets/img/facebook.png" alt="Facebook logo">
+                        </a>
+                        <a href="#" aria-label="Register with Google" tabindex="0">
+                            <img src="/assets/img/google.png" alt="Google logo">
+                        </a>
                     </div>
                 </form>
             </div>
-        </div>
+        </section>
 
-        <!-- Rigth Section -->
-        <div class="welcome-section">
+        <!-- Right Section -->
+        <section class="welcome-section">
             <h2>Join the adventure!</h2>
             <p>Create your account and start exploring</p>
             <p>English in a fun way.</p>
-        </div>
-    </div>
+        </section>
+
+    </main>
 </body>
-<script type="module" src="/controllers/User/register.js"></script>
+
+<script type="module" src="/controllers/User/register.js" defer></script>
 <script type="module" src="/controllers/User/logGoogle.js" defer></script>
 <script type="module" src="/controllers/User/logFacebook.js" defer></script>
+
 </html>

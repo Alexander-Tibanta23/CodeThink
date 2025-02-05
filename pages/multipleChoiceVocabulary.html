@@ -12,36 +12,36 @@
 
     <div class="container">
         <!-- Botón de regreso -->
-        <button class="back-button" id="back-button">
+        <button class="back-button" id="back-button" aria-label="Go back">
             <span>&larr;</span>
         </button>
 
         <!-- Pregunta en un cuadro con márgenes -->
-        <div class="question-box" id="titleQuestion">What is this object used for?</div>
+        <div class="question-box" id="titleQuestion" tabindex="0" aria-live="polite">What is this object used for?</div>
 
         <!-- Imagen -->
         <div class="image-container">
-            <img id="imageQuestion" src="/assets/img/questions/imageQuestion1.png" alt="Lápiz">
+            <img id="imageQuestion" src="/assets/img/questions/imageQuestion1.png" alt="Image question">
         </div>
 
         <!-- Opciones con nuevo diseño -->
         <div class="options">
-            <button class="option" id="option1"></button>
-            <button class="option" id="option2"></button>
-            <button class="option" id="option3"></button>
-            <button class="option" id="option4"></button>
+            <button class="option" id="option1" aria-label="Option 1"></button>
+            <button class="option" id="option2" aria-label="Option 2"></button>
+            <button class="option" id="option3" aria-label="Option 3"></button>
+            <button class="option" id="option4" aria-label="Option 4"></button>
         </div>
 
         <!-- Barra de progreso -->
         <div class="progress-bar">
-            <div class="progress" id="progress"></div>
+            <div class="progress" id="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
         </div>
 
         <!-- Información inferior -->
         <div class="bottom-info">
-            <span id="puntuation" class="puntuation"></span>
-            <span id="score"></span>
-            <span id="time"></span>
+            <span id="puntuation" class="puntuation" aria-live="polite"></span>
+            <span id="score" aria-live="polite"></span>
+            <span id="time" aria-live="polite"></span>
         </div>
     </div>
 </body>

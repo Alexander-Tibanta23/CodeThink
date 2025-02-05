@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 const card = document.createElement('div');
                 card.classList.add('card');
                 card.id = 'cardTopic';
+                card.tabIndex = 0;
 
                 card.innerHTML = `
                     <img id="imagenTopic" src="${topic.image}" alt="Imagen">
@@ -66,6 +67,12 @@ document.addEventListener("DOMContentLoaded", () => {
                 card.addEventListener("click", () => {
                     window.location.href = `gamesGrammar.html?topic=${encodeURIComponent(topic.id)}`;
                 });
+
+                card.addEventListener("keydown", (event) => {
+                    if (event.key === "Enter") {
+                        window.location.href = `gamesGrammar.html?topic=${encodeURIComponent(topic.id)}`;
+                    }
+                });                
             });
         })
         .catch(error => console.error("Error cargando los topics:", error));

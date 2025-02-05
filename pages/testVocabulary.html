@@ -10,18 +10,19 @@
 <body>
     <div class="container">
         <div class="header">
-            <div class="title" id="titleGame"></div>
+            <div class="title" id="titleGame" tabindex="0"></div>
         </div>
         
         <div class="content">
             <div class="image-container">
-                <img id="imageGame" src="" alt="Mapa Escolar">
+                <img id="imageGame" src="" alt="Game Image">
             </div>
+
             <div class="info">
-                <p id="difficulty"><span>Difficulty:</span></p>
-                <p id="timeGame"><span>Time:</span></p>
-                <p id="points"><span>Score:</span></p>
-                <button class="play-button" id="botonJuego">Play ▶️</button>
+                <p id="difficulty"><span aria-live="polite">Difficulty:</span></p>
+                <p id="timeGame"><span aria-live="polite">Time:</span></p>
+                <p id="points"><span aria-live="polite">Score:</span></p>
+                <button class="play-button" id="botonJuego" aria-label="Start the game">Play ▶️</button>
             </div>
             
         </div>
@@ -29,16 +30,13 @@
         <div class="details">
             <div class="description">
                 <h3>Description</h3>
-                <p id="descriptionGame"></p>
-                <button class="back-button" id="back-button">Back</button>
+                <p id="descriptionGame" tabindex="0"></p>
+                <button class="back-button" id="back-button" aria-label="Go back">Back</button>
             </div>
-            <div class="instructions">
+            <div class="instructions" aria-label="Instructions" tabindex="0">
                 <h3>Instructions</h3>
                 <ol>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li tabindex="0"></li>
                 </ol>
             </div>
         </div>

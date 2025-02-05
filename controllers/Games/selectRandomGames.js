@@ -9,12 +9,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 const gameDiv = document.createElement("div");
                 gameDiv.classList.add("games-row");
                 gameDiv.id = game.id;
+                gameDiv.tabIndex = 0;
                 
                 // Agregar contenido dinámico
                 gameDiv.innerHTML = `
                     <button class="cell-more-button"></button>
                     <div class="games-cell image">
-                        <img src="${game.image}" alt="Game Image">
+                        <img src="${game.image}" alt="Game Image">                      
                         <span>${game.title}</span>
                     </div>
                     <div class="games-cell category"><span class="cell-label">Type:</span>${game.type}</div>

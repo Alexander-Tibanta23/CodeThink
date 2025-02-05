@@ -3,14 +3,17 @@
 :root {
   --app-bg: #fff;
   --sidebar: #83b7c0;
-  --sidebar-main-color: #ffffff; /* logo y nombre */
+  --sidebar-main-color: #ffffff;
+  /* logo y nombre */
   --app-content-secondary-color: #f3f6fd;
   --app-content-main-color: #1f1c2e;
   --sidebar-link: #ffffff;
   --sidebar-hover-link: rgba(195, 207, 244, 0.5);
   --sidebar-active-link: #448894;
-  --action-color: #0C4976; /*Color derecha seccion actual de los botones, texto filtro y color al seleccionar partes*/
-  --action-color-hover: #1f1c2e; /*Color al pasar el mouse busqueda y filtro*/
+  --action-color: #0C4976;
+  /*Color derecha seccion actual de los botones, texto filtro y color al seleccionar partes*/
+  --action-color-hover: #1f1c2e;
+  /*Color al pasar el mouse busqueda y filtro*/
   --filter-reset: #0c4976;
   --filter-shadow: rgba(58, 55, 55, 0.2) 0px 2px 8px 0px;
 }
@@ -19,7 +22,8 @@
   box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -189,7 +193,8 @@ main {
   height: 100%;
   background: #0c4976;
   border-radius: 3px;
-  width: 60%; /* Cambia según el nivel */
+  width: 60%;
+  /* Cambia según el nivel */
 }
 
 .account-info-more {
@@ -219,13 +224,17 @@ main {
   margin-left: 8px;
   cursor: pointer;
 }
+
 .action-button span {
   margin-right: 4px;
 }
+
 .action-button:hover {
   border-color: var(--action-color-hover);
 }
-.action-button:focus, .action-button.active {
+
+.action-button:focus,
+.action-button.active {
   outline: none;
   color: var(--action-color);
   border-color: var(--action-color);
@@ -326,6 +335,7 @@ main {
     width: 100%;
     margin: 8px 0;
   }
+
   .gridView .games-row:hover {
     transform: none;
   }
@@ -371,7 +381,7 @@ main {
   width: 100%;
   height: 140px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 4px;
   margin-bottom: 16px;
 }
@@ -382,47 +392,55 @@ main {
 
 /* Section Box Styling */
 .section-box {
-    margin-top: 40px;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 100%;
-    text-align: center;
-    background: url('/assets/img/banners/banner1.jpeg');
-    background-size: cover;
-    background-position: center;
-    background-color: rgba(0, 0, 0, 0.3); /* Transparencia */
-  }
-  
-  /* Carousel */
-  .carousel-container {
-    position: relative;
-    overflow: hidden;
-    height: 50px;
-    margin-top: 10px;
-    
-  }
-  
-  .slide {
-    display: none;
-  }
-  
-  .slide.active {
-    display: block;
-  }
-  
-  button {
-    background: rgb(138, 138, 185);
-    color: white;
-    order: 2px solid #ff4f4f;
-    padding: 8px;
-    cursor: pointer;
-    font-size: 0.1px;
-    margin: 5px;
-    border-radius: 10px;
-  }
-  
-  button:hover {
-    background: #F6F3EB;
-  }
+  margin-top: 40px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  text-align: center;
+  background: url('/assets/img/banners/banner1.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  /* Transparencia */
+}
+
+/* Carousel */
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+  height: 50px;
+  margin-top: 10px;
+
+}
+
+.slide {
+  display: none;
+}
+
+.slide.active {
+  display: block;
+}
+
+button {
+  background: rgb(138, 138, 185);
+  color: white;
+  order: 2px solid #ff4f4f;
+  padding: 8px;
+  cursor: pointer;
+  font-size: 0.1px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+button:hover {
+  background: #F6F3EB;
+}
+
+.games-row:focus-visible {
+  outline: 3px solid #FFD700;  /* Color de resaltado */
+  outline-offset: 4px;
+  border-radius: 5px;
+  background-color: rgba(0, 174, 239, 0.1); /* Efecto sutil */
+}         

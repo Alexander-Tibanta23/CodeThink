@@ -37,6 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             const gameDiv = document.createElement("div");
                             gameDiv.classList.add("games-row");
                             gameDiv.id = game.id;
+                            gameDiv.tabIndex = 0;
 
                             gameDiv.innerHTML = `
                                 <button class="cell-more-button"></button>
@@ -54,9 +55,16 @@ document.addEventListener("DOMContentLoaded", () => {
                                 <div class="games-cell time"><span class="cell-label">Duration:</span>${game.duration}</div>
                             `;
 
-                            // Redirigir a test.html con el ID del juego
-                            gameDiv.addEventListener("click", () => {
+                            // Redirigir a test.html con click o Enter
+                            const navigateToGame = () => {
                                 window.location.href = `testGrammar.html?id=${game.id}`;
+                            };
+
+                            gameDiv.addEventListener("click", navigateToGame);
+                            gameDiv.addEventListener("keydown", (event) => {
+                                if (event.key === "Enter") {
+                                    navigateToGame();
+                                }
                             });
 
                             gamesContainer.appendChild(gameDiv);
